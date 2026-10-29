@@ -21,6 +21,12 @@ groupes= defaultdict(list)
 for r in rows:
     n =int(r["instances_configured"])
     c = int(r["clients"])
+
+    #pour N=1 et C=16 on utilise seulement run1.csv car c'était la tentative initial
+    if n ==1 and c == 16:
+        if r["filename"] != "run1.csv":
+            continue
+
     groupes[(n,c)].append(r)
 
 data = []
