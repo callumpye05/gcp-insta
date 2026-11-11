@@ -28,7 +28,7 @@ from datetime import datetime, timedelta, timezone
 from google.cloud import datastore
 from google.cloud.datastore.query import PropertyFilter
 
-BATCH = 500  # maximum Datastore par put_multi / delete_multi
+BATCH = 100  # maximum Datastore par put_multi / delete_multi
 _local = threading.local()
 
 

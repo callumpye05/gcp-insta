@@ -1,0 +1,7 @@
+facteur,valeur,server_median_ms,client_median_ms,instances_observed,failed_requests
+U,100,27.55,55.8,1,0
+U,1000,27.3,58.3,1,0
+U,10000,30.85,61.150000000000006,1,0
+P,10,26.8,58.05,1,0
+P,100,32.150000000000006,56.05,1,0
+P,1000,34.7,55.0,1,0
