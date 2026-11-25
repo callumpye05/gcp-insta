@@ -1,0 +1,7453 @@
+[
+  {
+    "protoPayload": {
+      "latency": "0.481947s",
+      "megaCycles": "23",
+      "pendingTime": "0.454907161s"
+    },
+    "timestamp": "2026-11-12T15:24:58.986946Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.482140s",
+      "megaCycles": "22",
+      "pendingTime": "0.457126051s"
+    },
+    "timestamp": "2026-11-12T15:24:58.961419Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.480788s",
+      "megaCycles": "22",
+      "pendingTime": "0.443025513s"
+    },
+    "timestamp": "2026-11-12T15:24:58.939472Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.479735s",
+      "megaCycles": "23",
+      "pendingTime": "0.445242583s"
+    },
+    "timestamp": "2026-11-12T15:24:58.904686Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.477524s",
+      "megaCycles": "23",
+      "pendingTime": "0.448382763s"
+    },
+    "timestamp": "2026-11-12T15:24:58.874611Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.486170s",
+      "megaCycles": "23",
+      "pendingTime": "0.456250091s"
+    },
+    "timestamp": "2026-11-12T15:24:58.838619Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.484075s",
+      "megaCycles": "22",
+      "pendingTime": "0.456227321s"
+    },
+    "timestamp": "2026-11-12T15:24:58.812771Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.507528s",
+      "megaCycles": "22",
+      "pendingTime": "0.479201855s"
+    },
+    "timestamp": "2026-11-12T15:24:58.763796Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.510013s",
+      "megaCycles": "24",
+      "pendingTime": "0.481830234s"
+    },
+    "timestamp": "2026-11-12T15:24:58.734979Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.519939s",
+      "megaCycles": "26",
+      "pendingTime": "0.459146980s"
+    },
+    "timestamp": "2026-11-12T15:24:58.698578Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.490521s",
+      "megaCycles": "23",
+      "pendingTime": "0.461901669s"
+    },
+    "timestamp": "2026-11-12T15:24:58.669081Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.490983s",
+      "megaCycles": "24",
+      "pendingTime": "0.461009120s"
+    },
+    "timestamp": "2026-11-12T15:24:58.642035Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.489008s",
+      "megaCycles": "24",
+      "pendingTime": "0.441665024s"
+    },
+    "timestamp": "2026-11-12T15:24:58.615772Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.473089s",
+      "megaCycles": "24",
+      "pendingTime": "0.446450723s"
+    },
+    "timestamp": "2026-11-12T15:24:58.586484Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.488259s",
+      "megaCycles": "24",
+      "pendingTime": "0.458229240s"
+    },
+    "timestamp": "2026-11-12T15:24:58.546825Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.516624s",
+      "megaCycles": "24",
+      "pendingTime": "0.488296073s"
+    },
+    "timestamp": "2026-11-12T15:24:58.490439Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.523122s",
+      "megaCycles": "22",
+      "pendingTime": "0.494825722s"
+    },
+    "timestamp": "2026-11-12T15:24:58.457394Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.530932s",
+      "megaCycles": "21",
+      "pendingTime": "0.505573199s"
+    },
+    "timestamp": "2026-11-12T15:24:58.423135Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.585126s",
+      "megaCycles": "24",
+      "pendingTime": "0.549329447s"
+    },
+    "timestamp": "2026-11-12T15:24:58.345847Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.591457s",
+      "megaCycles": "23",
+      "pendingTime": "0.560223197s"
+    },
+    "timestamp": "2026-11-12T15:24:58.306051Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.593293s",
+      "megaCycles": "23",
+      "pendingTime": "0.554948422s"
+    },
+    "timestamp": "2026-11-12T15:24:58.274827Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.678060s",
+      "megaCycles": "23",
+      "pendingTime": "0.649554136s"
+    },
+    "timestamp": "2026-11-12T15:24:58.153433Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.683911s",
+      "megaCycles": "26",
+      "pendingTime": "0.632901384s"
+    },
+    "timestamp": "2026-11-12T15:24:58.121148Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.666140s",
+      "megaCycles": "23",
+      "pendingTime": "0.636107298s"
+    },
+    "timestamp": "2026-11-12T15:24:58.089784Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.680406s",
+      "megaCycles": "26",
+      "pendingTime": "0.638643909s"
+    },
+    "timestamp": "2026-11-12T15:24:58.047429Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.673330s",
+      "megaCycles": "23",
+      "pendingTime": "0.645790931s"
+    },
+    "timestamp": "2026-11-12T15:24:58.014687Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.679337s",
+      "megaCycles": "23",
+      "pendingTime": "0.650224614s"
+    },
+    "timestamp": "2026-11-12T15:24:57.982868Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.686880s",
+      "megaCycles": "24",
+      "pendingTime": "0.655949906s"
+    },
+    "timestamp": "2026-11-12T15:24:57.948337Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.690704s",
+      "megaCycles": "25",
+      "pendingTime": "0.662421127s"
+    },
+    "timestamp": "2026-11-12T15:24:57.915400Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.701327s",
+      "megaCycles": "28",
+      "pendingTime": "0.656533542s"
+    },
+    "timestamp": "2026-11-12T15:24:57.878307Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.691966s",
+      "megaCycles": "27",
+      "pendingTime": "0.633674771s"
+    },
+    "timestamp": "2026-11-12T15:24:57.844709Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.662976s",
+      "megaCycles": "26",
+      "pendingTime": "0.630865766s"
+    },
+    "timestamp": "2026-11-12T15:24:57.817314Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.670993s",
+      "megaCycles": "25",
+      "pendingTime": "0.634561599s"
+    },
+    "timestamp": "2026-11-12T15:24:57.779258Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.668102s",
+      "megaCycles": "30",
+      "pendingTime": "0.588236856s"
+    },
+    "timestamp": "2026-11-12T15:24:57.747628Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.619250s",
+      "megaCycles": "25",
+      "pendingTime": "0.576586211s"
+    },
+    "timestamp": "2026-11-12T15:24:57.718633Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.616838s",
+      "megaCycles": "26",
+      "pendingTime": "0.584101858s"
+    },
+    "timestamp": "2026-11-12T15:24:57.682065Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.609469s",
+      "megaCycles": "37",
+      "pendingTime": "0.484838711s"
+    },
+    "timestamp": "2026-11-12T15:24:57.658677Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.533243s",
+      "megaCycles": "25",
+      "pendingTime": "0.500309484s"
+    },
+    "timestamp": "2026-11-12T15:24:57.612170Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.542087s",
+      "megaCycles": "25",
+      "pendingTime": "0.507511441s"
+    },
+    "timestamp": "2026-11-12T15:24:57.572574Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.543654s",
+      "megaCycles": "30",
+      "pendingTime": "0.497176695s"
+    },
+    "timestamp": "2026-11-12T15:24:57.538355Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.536719s",
+      "megaCycles": "30",
+      "pendingTime": "0.502727543s"
+    },
+    "timestamp": "2026-11-12T15:24:57.501183Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.551151s",
+      "megaCycles": "26",
+      "pendingTime": "0.517650377s"
+    },
+    "timestamp": "2026-11-12T15:24:57.455084Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.550682s",
+      "megaCycles": "26",
+      "pendingTime": "0.514510818s"
+    },
+    "timestamp": "2026-11-12T15:24:57.424140Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.547548s",
+      "megaCycles": "23",
+      "pendingTime": "0.510334240s"
+    },
+    "timestamp": "2026-11-12T15:24:57.393067Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.543171s",
+      "megaCycles": "25",
+      "pendingTime": "0.505972672s"
+    },
+    "timestamp": "2026-11-12T15:24:57.361881Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.549722s",
+      "megaCycles": "23",
+      "pendingTime": "0.513959838s"
+    },
+    "timestamp": "2026-11-12T15:24:57.319869Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.543012s",
+      "megaCycles": "23",
+      "pendingTime": "0.509698951s"
+    },
+    "timestamp": "2026-11-12T15:24:57.293203Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.535548s",
+      "megaCycles": "24",
+      "pendingTime": "0.498993925s"
+    },
+    "timestamp": "2026-11-12T15:24:57.269831Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.547594s",
+      "megaCycles": "24",
+      "pendingTime": "0.512164419s"
+    },
+    "timestamp": "2026-11-12T15:24:57.224392Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.546787s",
+      "megaCycles": "24",
+      "pendingTime": "0.516486997s"
+    },
+    "timestamp": "2026-11-12T15:24:57.192249Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.548155s",
+      "megaCycles": "26",
+      "pendingTime": "0.510897249s"
+    },
+    "timestamp": "2026-11-12T15:24:57.162402Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.554531s",
+      "megaCycles": "31",
+      "pendingTime": "0.522227614s"
+    },
+    "timestamp": "2026-11-12T15:24:57.121333Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.554474s",
+      "megaCycles": "29",
+      "pendingTime": "0.511709739s"
+    },
+    "timestamp": "2026-11-12T15:24:57.091361Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.543360s",
+      "megaCycles": "27",
+      "pendingTime": "0.502571864s"
+    },
+    "timestamp": "2026-11-12T15:24:57.061634Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.535612s",
+      "megaCycles": "29",
+      "pendingTime": "0.497142785s"
+    },
+    "timestamp": "2026-11-12T15:24:57.030593Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.532378s",
+      "megaCycles": "33",
+      "pendingTime": "0.491877408s"
+    },
+    "timestamp": "2026-11-12T15:24:56.998241Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.539638s",
+      "megaCycles": "29",
+      "pendingTime": "0.491411058s"
+    },
+    "timestamp": "2026-11-12T15:24:56.952531Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.525476s",
+      "megaCycles": "23",
+      "pendingTime": "0.494451037s"
+    },
+    "timestamp": "2026-11-12T15:24:56.920470Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.531389s",
+      "megaCycles": "23",
+      "pendingTime": "0.497362636s"
+    },
+    "timestamp": "2026-11-12T15:24:56.885824Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.538096s",
+      "megaCycles": "23",
+      "pendingTime": "0.504292793s"
+    },
+    "timestamp": "2026-11-12T15:24:56.847042Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.534982s",
+      "megaCycles": "26",
+      "pendingTime": "0.491393799s"
+    },
+    "timestamp": "2026-11-12T15:24:56.818497Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.547276s",
+      "megaCycles": "23",
+      "pendingTime": "0.515272798s"
+    },
+    "timestamp": "2026-11-12T15:24:56.764647Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.548752s",
+      "megaCycles": "23",
+      "pendingTime": "0.508949270s"
+    },
+    "timestamp": "2026-11-12T15:24:56.733116Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.547928s",
+      "megaCycles": "22",
+      "pendingTime": "0.517608176s"
+    },
+    "timestamp": "2026-11-12T15:24:56.696920Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.548721s",
+      "megaCycles": "23",
+      "pendingTime": "0.515289238s"
+    },
+    "timestamp": "2026-11-12T15:24:56.667709Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.543481s",
+      "megaCycles": "24",
+      "pendingTime": "0.510326390s"
+    },
+    "timestamp": "2026-11-12T15:24:56.641577Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.544027s",
+      "megaCycles": "24",
+      "pendingTime": "0.502119334s"
+    },
+    "timestamp": "2026-11-12T15:24:56.609662Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.533902s",
+      "megaCycles": "24",
+      "pendingTime": "0.499924865s"
+    },
+    "timestamp": "2026-11-12T15:24:56.580149Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.541174s",
+      "megaCycles": "21",
+      "pendingTime": "0.510906380s"
+    },
+    "timestamp": "2026-11-12T15:24:56.540791Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.544669s",
+      "megaCycles": "24",
+      "pendingTime": "0.509937441s"
+    },
+    "timestamp": "2026-11-12T15:24:56.509292Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.548805s",
+      "megaCycles": "28",
+      "pendingTime": "0.514593618s"
+    },
+    "timestamp": "2026-11-12T15:24:56.472724Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.547235s",
+      "megaCycles": "23",
+      "pendingTime": "0.500773664s"
+    },
+    "timestamp": "2026-11-12T15:24:56.442805Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.542325s",
+      "megaCycles": "23",
+      "pendingTime": "0.505013492s"
+    },
+    "timestamp": "2026-11-12T15:24:56.403464Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.643955s",
+      "megaCycles": "25",
+      "pendingTime": "0.607995411s"
+    },
+    "timestamp": "2026-11-12T15:24:56.267303Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.679675s",
+      "megaCycles": "23",
+      "pendingTime": "0.639223222s"
+    },
+    "timestamp": "2026-11-12T15:24:56.197588Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.674085s",
+      "megaCycles": "24",
+      "pendingTime": "0.641566873s"
+    },
+    "timestamp": "2026-11-12T15:24:56.164978Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.691527s",
+      "megaCycles": "25",
+      "pendingTime": "0.636752223s"
+    },
+    "timestamp": "2026-11-12T15:24:56.117251Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.666310s",
+      "megaCycles": "24",
+      "pendingTime": "0.631200175s"
+    },
+    "timestamp": "2026-11-12T15:24:56.089979Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.664196s",
+      "megaCycles": "23",
+      "pendingTime": "0.627873258s"
+    },
+    "timestamp": "2026-11-12T15:24:56.058957Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.668818s",
+      "megaCycles": "24",
+      "pendingTime": "0.637650248s"
+    },
+    "timestamp": "2026-11-12T15:24:56.020091Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.675121s",
+      "megaCycles": "23",
+      "pendingTime": "0.644023568s"
+    },
+    "timestamp": "2026-11-12T15:24:55.984713Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.677430s",
+      "megaCycles": "25",
+      "pendingTime": "0.647035238s"
+    },
+    "timestamp": "2026-11-12T15:24:55.953393Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.679029s",
+      "megaCycles": "23",
+      "pendingTime": "0.645883220s"
+    },
+    "timestamp": "2026-11-12T15:24:55.923576Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.678496s",
+      "megaCycles": "24",
+      "pendingTime": "0.638660234s"
+    },
+    "timestamp": "2026-11-12T15:24:55.892891Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.674992s",
+      "megaCycles": "24",
+      "pendingTime": "0.641830626s"
+    },
+    "timestamp": "2026-11-12T15:24:55.858231Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.671142s",
+      "megaCycles": "25",
+      "pendingTime": "0.632247490s"
+    },
+    "timestamp": "2026-11-12T15:24:55.830254Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.718069s",
+      "megaCycles": "24",
+      "pendingTime": "0.687133596s"
+    },
+    "timestamp": "2026-11-12T15:24:55.746231Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.768941s",
+      "megaCycles": "26",
+      "pendingTime": "0.726460709s"
+    },
+    "timestamp": "2026-11-12T15:24:55.666191Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.740941s",
+      "megaCycles": "33",
+      "pendingTime": "0.601099720s"
+    },
+    "timestamp": "2026-11-12T15:24:55.653834Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.627188s",
+      "megaCycles": "29",
+      "pendingTime": "0.557978043s"
+    },
+    "timestamp": "2026-11-12T15:24:55.630019Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.576102s",
+      "megaCycles": "25",
+      "pendingTime": "0.538755295s"
+    },
+    "timestamp": "2026-11-12T15:24:55.613926Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.596630s",
+      "megaCycles": "26",
+      "pendingTime": "0.549308764s"
+    },
+    "timestamp": "2026-11-12T15:24:55.558327Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.553153s",
+      "megaCycles": "23",
+      "pendingTime": "0.524030966s"
+    },
+    "timestamp": "2026-11-12T15:24:55.556452Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.553699s",
+      "megaCycles": "25",
+      "pendingTime": "0.517464566s"
+    },
+    "timestamp": "2026-11-12T15:24:55.528604Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.594273s",
+      "megaCycles": "26",
+      "pendingTime": "0.555408983s"
+    },
+    "timestamp": "2026-11-12T15:24:55.453767Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.563565s",
+      "megaCycles": "27",
+      "pendingTime": "0.528582594s"
+    },
+    "timestamp": "2026-11-12T15:24:55.447439Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.565161s",
+      "megaCycles": "23",
+      "pendingTime": "0.530700615s"
+    },
+    "timestamp": "2026-11-12T15:24:55.412697Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.583488s",
+      "megaCycles": "23",
+      "pendingTime": "0.551260124s"
+    },
+    "timestamp": "2026-11-12T15:24:55.361882Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.580684s",
+      "megaCycles": "23",
+      "pendingTime": "0.548962854s"
+    },
+    "timestamp": "2026-11-12T15:24:55.334888Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.571189s",
+      "megaCycles": "24",
+      "pendingTime": "0.534132425s"
+    },
+    "timestamp": "2026-11-12T15:24:55.314616Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.580349s",
+      "megaCycles": "24",
+      "pendingTime": "0.550376904s"
+    },
+    "timestamp": "2026-11-12T15:24:55.270869Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.578271s",
+      "megaCycles": "28",
+      "pendingTime": "0.491961728s"
+    },
+    "timestamp": "2026-11-12T15:24:55.244780Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.524823s",
+      "megaCycles": "30",
+      "pendingTime": "0.439288941s"
+    },
+    "timestamp": "2026-11-12T15:24:55.213885Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.432815s",
+      "megaCycles": "30",
+      "pendingTime": "0.406107373s"
+    },
+    "timestamp": "2026-11-12T15:24:55.212953Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.530644s",
+      "megaCycles": "9",
+      "pendingTime": "0.478202928s"
+    },
+    "timestamp": "2026-11-12T15:24:55.126143Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.504069s",
+      "megaCycles": "16",
+      "pendingTime": "0.429546492s"
+    },
+    "timestamp": "2026-11-12T15:24:55.117005Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.495132s",
+      "megaCycles": "36",
+      "pendingTime": "0.433332021s"
+    },
+    "timestamp": "2026-11-12T15:24:55.111346Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.509358s",
+      "megaCycles": "5",
+      "pendingTime": "0.479107478s"
+    },
+    "timestamp": "2026-11-12T15:24:55.039465Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.531792s",
+      "megaCycles": "28",
+      "pendingTime": "0.427337312s"
+    },
+    "timestamp": "2026-11-12T15:24:55.015228Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.507453s",
+      "megaCycles": "36",
+      "pendingTime": "0.424857842s"
+    },
+    "timestamp": "2026-11-12T15:24:55.013324Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.481067s",
+      "megaCycles": "15",
+      "pendingTime": "0.440839380s"
+    },
+    "timestamp": "2026-11-12T15:24:54.963093Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.481476s",
+      "megaCycles": "25",
+      "pendingTime": "0.393028914s"
+    },
+    "timestamp": "2026-11-12T15:24:54.958471Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.411975s",
+      "megaCycles": "23",
+      "pendingTime": "0.384967335s"
+    },
+    "timestamp": "2026-11-12T15:24:54.941223Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.490739s",
+      "megaCycles": "26",
+      "pendingTime": "0.388907464s"
+    },
+    "timestamp": "2026-11-12T15:24:54.915229Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.413252s",
+      "megaCycles": "33",
+      "pendingTime": "0.347458057s"
+    },
+    "timestamp": "2026-11-12T15:24:54.914633Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.350300s",
+      "megaCycles": "24",
+      "pendingTime": "0.322526728s"
+    },
+    "timestamp": "2026-11-12T15:24:54.913523Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.421640s",
+      "megaCycles": "26",
+      "pendingTime": "0.389081405s"
+    },
+    "timestamp": "2026-11-12T15:24:54.816298Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.390698s",
+      "megaCycles": "4",
+      "pendingTime": "0.300705830s"
+    },
+    "timestamp": "2026-11-12T15:24:54.816188Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.490722s",
+      "megaCycles": "20",
+      "pendingTime": "0.289607951s"
+    },
+    "timestamp": "2026-11-12T15:24:54.815301Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.488752s",
+      "megaCycles": "41",
+      "pendingTime": "0.386680714s"
+    },
+    "timestamp": "2026-11-12T15:24:54.716718Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.402289s",
+      "megaCycles": "26",
+      "pendingTime": "0.312764279s"
+    },
+    "timestamp": "2026-11-12T15:24:54.716149Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.390693s",
+      "megaCycles": "3",
+      "pendingTime": "0.289209381s"
+    },
+    "timestamp": "2026-11-12T15:24:54.716102Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.391218s",
+      "megaCycles": "32",
+      "pendingTime": "0.289539731s"
+    },
+    "timestamp": "2026-11-12T15:24:54.713797Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.317241s",
+      "megaCycles": "50",
+      "pendingTime": "0.288138312s"
+    },
+    "timestamp": "2026-11-12T15:24:54.616618Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.414261s",
+      "megaCycles": "44",
+      "pendingTime": "0.315836589s"
+    },
+    "timestamp": "2026-11-12T15:24:54.616344Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.390590s",
+      "megaCycles": "23",
+      "pendingTime": "0.288842421s"
+    },
+    "timestamp": "2026-11-12T15:24:54.614860Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.487641s",
+      "megaCycles": "7",
+      "pendingTime": "0.383988734s"
+    },
+    "timestamp": "2026-11-12T15:24:54.519369Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.390887s",
+      "megaCycles": "63",
+      "pendingTime": "0.290928921s"
+    },
+    "timestamp": "2026-11-12T15:24:54.514280Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.392584s",
+      "megaCycles": "3",
+      "pendingTime": "0.291896941s"
+    },
+    "timestamp": "2026-11-12T15:24:54.513072Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.490878s",
+      "megaCycles": "1",
+      "pendingTime": "0.390142634s"
+    },
+    "timestamp": "2026-11-12T15:24:54.415176Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.392139s",
+      "megaCycles": "22",
+      "pendingTime": "0.290557811s"
+    },
+    "timestamp": "2026-11-12T15:24:54.414724Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.392572s",
+      "megaCycles": "22",
+      "pendingTime": "0.289777841s"
+    },
+    "timestamp": "2026-11-12T15:24:54.414291Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.468281s",
+      "megaCycles": "22",
+      "pendingTime": "0.365027816s"
+    },
+    "timestamp": "2026-11-12T15:24:54.338618Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.391507s",
+      "megaCycles": "1",
+      "pendingTime": "0.290868341s"
+    },
+    "timestamp": "2026-11-12T15:24:54.314422Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.472149s",
+      "megaCycles": "2",
+      "pendingTime": "0.369758165s"
+    },
+    "timestamp": "2026-11-12T15:24:54.234704Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.472044s",
+      "megaCycles": "76",
+      "pendingTime": "0.370848805s"
+    },
+    "timestamp": "2026-11-12T15:24:54.233248Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.374360s",
+      "megaCycles": "8",
+      "pendingTime": "0.271580282s"
+    },
+    "timestamp": "2026-11-12T15:24:54.233163Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.473787s",
+      "megaCycles": "1",
+      "pendingTime": "0.272637462s"
+    },
+    "timestamp": "2026-11-12T15:24:54.231718Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.486158s",
+      "megaCycles": "33",
+      "pendingTime": "0.384252289s"
+    },
+    "timestamp": "2026-11-12T15:24:54.119922Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.387265s",
+      "megaCycles": "3",
+      "pendingTime": "0.285817476s"
+    },
+    "timestamp": "2026-11-12T15:24:54.118942Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.387727s",
+      "megaCycles": "3",
+      "pendingTime": "0.285547316s"
+    },
+    "timestamp": "2026-11-12T15:24:54.118473Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.387102s",
+      "megaCycles": "70",
+      "pendingTime": "0.210964132s"
+    },
+    "timestamp": "2026-11-12T15:24:54.118425Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.487796s",
+      "megaCycles": "33",
+      "pendingTime": "0.285661045s"
+    },
+    "timestamp": "2026-11-12T15:24:54.118261Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.388261s",
+      "megaCycles": "14",
+      "pendingTime": "0.285319973s"
+    },
+    "timestamp": "2026-11-12T15:24:54.017418Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.315794s",
+      "megaCycles": "51",
+      "pendingTime": "0.210077229s"
+    },
+    "timestamp": "2026-11-12T15:24:54.014585Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.476359s",
+      "megaCycles": "14",
+      "pendingTime": "0.294138779s"
+    },
+    "timestamp": "2026-11-12T15:24:53.929328Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.296734s",
+      "megaCycles": "82",
+      "pendingTime": "0.181715409s"
+    },
+    "timestamp": "2026-11-12T15:24:53.926525Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.480210s",
+      "megaCycles": "4",
+      "pendingTime": "0.295764289s"
+    },
+    "timestamp": "2026-11-12T15:24:53.926327Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.308672s",
+      "megaCycles": "5",
+      "pendingTime": "0.190270151s"
+    },
+    "timestamp": "2026-11-12T15:24:53.915449Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.488014s",
+      "megaCycles": "29",
+      "pendingTime": "0.288010941s"
+    },
+    "timestamp": "2026-11-12T15:24:53.817974Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.410352s",
+      "megaCycles": "8",
+      "pendingTime": "0.288909692s"
+    },
+    "timestamp": "2026-11-12T15:24:53.816341Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.290994s",
+      "pendingTime": "0.188917341s"
+    },
+    "timestamp": "2026-11-12T15:24:53.815990Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.409021s",
+      "megaCycles": "3",
+      "pendingTime": "0.288607652s"
+    },
+    "timestamp": "2026-11-12T15:24:53.815941Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.374241s",
+      "megaCycles": "76",
+      "pendingTime": "0.269144779s"
+    },
+    "timestamp": "2026-11-12T15:24:53.732671Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.386170s",
+      "megaCycles": "5",
+      "pendingTime": "0.197771132s"
+    },
+    "timestamp": "2026-11-12T15:24:53.721628Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.389560s",
+      "megaCycles": "11",
+      "pendingTime": "0.196829182s"
+    },
+    "timestamp": "2026-11-12T15:24:53.720227Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.487872s",
+      "megaCycles": "1",
+      "pendingTime": "0.296128952s"
+    },
+    "timestamp": "2026-11-12T15:24:53.620092Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.390439s",
+      "megaCycles": "12",
+      "pendingTime": "0.289292852s"
+    },
+    "timestamp": "2026-11-12T15:24:53.616356Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.305494s",
+      "megaCycles": "10",
+      "pendingTime": "0.191530490s"
+    },
+    "timestamp": "2026-11-12T15:24:53.616143Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.390851s",
+      "megaCycles": "27",
+      "pendingTime": "0.191129581s"
+    },
+    "timestamp": "2026-11-12T15:24:53.614172Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.400599s",
+      "megaCycles": "7",
+      "pendingTime": "0.286558821s"
+    },
+    "timestamp": "2026-11-12T15:24:53.518573Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.399404s",
+      "megaCycles": "23",
+      "pendingTime": "0.285211801s"
+    },
+    "timestamp": "2026-11-12T15:24:53.518544Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.477995s",
+      "megaCycles": "63",
+      "pendingTime": "0.293339982s"
+    },
+    "timestamp": "2026-11-12T15:24:53.429299Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.378765s",
+      "megaCycles": "2",
+      "pendingTime": "0.281002411s"
+    },
+    "timestamp": "2026-11-12T15:24:53.428655Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.391635s",
+      "megaCycles": "8",
+      "pendingTime": "0.195753041s"
+    },
+    "timestamp": "2026-11-12T15:24:53.415160Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.476408s",
+      "megaCycles": "26",
+      "pendingTime": "0.275111040s"
+    },
+    "timestamp": "2026-11-12T15:24:53.329040Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.489601s",
+      "megaCycles": "9",
+      "pendingTime": "0.284784871s"
+    },
+    "timestamp": "2026-11-12T15:24:53.319583Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.392908s",
+      "megaCycles": "6",
+      "pendingTime": "0.190683151s"
+    },
+    "timestamp": "2026-11-12T15:24:53.318657Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.406401s",
+      "megaCycles": "32",
+      "pendingTime": "0.285477871s"
+    },
+    "timestamp": "2026-11-12T15:24:53.317987Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.391205s",
+      "megaCycles": "43",
+      "pendingTime": "0.191459781s"
+    },
+    "timestamp": "2026-11-12T15:24:53.317113Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.382866s",
+      "megaCycles": "33",
+      "pendingTime": "0.190829691s"
+    },
+    "timestamp": "2026-11-12T15:24:53.230236Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.389048s",
+      "megaCycles": "26",
+      "pendingTime": "0.202287142s"
+    },
+    "timestamp": "2026-11-12T15:24:53.216736Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.393639s",
+      "megaCycles": "26",
+      "pendingTime": "0.192775761s"
+    },
+    "timestamp": "2026-11-12T15:24:53.212131Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.484789s",
+      "megaCycles": "3",
+      "pendingTime": "0.188141791s"
+    },
+    "timestamp": "2026-11-12T15:24:53.121504Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.391688s",
+      "megaCycles": "46",
+      "pendingTime": "0.190555501s"
+    },
+    "timestamp": "2026-11-12T15:24:53.117977Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.306236s",
+      "megaCycles": "5",
+      "pendingTime": "0.190351431s"
+    },
+    "timestamp": "2026-11-12T15:24:53.116562Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.396561s",
+      "megaCycles": "7",
+      "pendingTime": "0.191452830s"
+    },
+    "timestamp": "2026-11-12T15:24:53.114434Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.403103s",
+      "megaCycles": "37",
+      "pendingTime": "0.287507812s"
+    },
+    "timestamp": "2026-11-12T15:24:53.018019Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.389385s",
+      "megaCycles": "50",
+      "pendingTime": "0.204514282s"
+    },
+    "timestamp": "2026-11-12T15:24:53.017346Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.295169s",
+      "megaCycles": "17",
+      "pendingTime": "0.190954251s"
+    },
+    "timestamp": "2026-11-12T15:24:53.016919Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.291776s",
+      "megaCycles": "2",
+      "pendingTime": "0.097359870s"
+    },
+    "timestamp": "2026-11-12T15:24:53.015797Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.387036s",
+      "megaCycles": "4",
+      "pendingTime": "0.185294171s"
+    },
+    "timestamp": "2026-11-12T15:24:52.921412Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.302538s",
+      "megaCycles": "32",
+      "pendingTime": "0.185763641s"
+    },
+    "timestamp": "2026-11-12T15:24:52.920759Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.393626s",
+      "megaCycles": "34",
+      "pendingTime": "0.190571461s"
+    },
+    "timestamp": "2026-11-12T15:24:52.913339Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.289585s",
+      "megaCycles": "62",
+      "pendingTime": "0.187490141s"
+    },
+    "timestamp": "2026-11-12T15:24:52.817189Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.493488s",
+      "megaCycles": "9",
+      "pendingTime": "0.187933660s"
+    },
+    "timestamp": "2026-11-12T15:24:52.816733Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.389352s",
+      "megaCycles": "28",
+      "pendingTime": "0.189410481s"
+    },
+    "timestamp": "2026-11-12T15:24:52.816511Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.375211s",
+      "megaCycles": "27",
+      "pendingTime": "0.263877058s"
+    },
+    "timestamp": "2026-11-12T15:24:52.739903Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.393407s",
+      "megaCycles": "5",
+      "pendingTime": "0.194135671s"
+    },
+    "timestamp": "2026-11-12T15:24:52.715315Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.494630s",
+      "megaCycles": "17",
+      "pendingTime": "0.194136021s"
+    },
+    "timestamp": "2026-11-12T15:24:52.714923Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.485630s",
+      "megaCycles": "5",
+      "pendingTime": "0.281518401s"
+    },
+    "timestamp": "2026-11-12T15:24:52.623111Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.385761s",
+      "pendingTime": "0.185269051s"
+    },
+    "timestamp": "2026-11-12T15:24:52.620576Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.390177s",
+      "megaCycles": "6",
+      "pendingTime": "0.187928661s"
+    },
+    "timestamp": "2026-11-12T15:24:52.617601Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.388553s",
+      "megaCycles": "59",
+      "pendingTime": "0.188050191s"
+    },
+    "timestamp": "2026-11-12T15:24:52.617261Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.393298s",
+      "megaCycles": "6",
+      "pendingTime": "0.116440023s"
+    },
+    "timestamp": "2026-11-12T15:24:52.614446Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.395749s",
+      "megaCycles": "7",
+      "pendingTime": "0.187030131s"
+    },
+    "timestamp": "2026-11-12T15:24:52.515301Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.386712s",
+      "pendingTime": "0.186731230s"
+    },
+    "timestamp": "2026-11-12T15:24:52.420462Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.386803s",
+      "pendingTime": "0.186092740s"
+    },
+    "timestamp": "2026-11-12T15:24:52.420345Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.581382s",
+      "megaCycles": "7",
+      "pendingTime": "0.276916251s"
+    },
+    "timestamp": "2026-11-12T15:24:52.329647Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.578262s",
+      "megaCycles": "73",
+      "pendingTime": "0.277480471s"
+    },
+    "timestamp": "2026-11-12T15:24:52.328868Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.478199s",
+      "megaCycles": "31",
+      "pendingTime": "0.276007550s"
+    },
+    "timestamp": "2026-11-12T15:24:52.328803Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.389287s",
+      "megaCycles": "61",
+      "pendingTime": "0.188603771s"
+    },
+    "timestamp": "2026-11-12T15:24:52.317406Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.390786s",
+      "megaCycles": "2",
+      "pendingTime": "0.093215280s"
+    },
+    "timestamp": "2026-11-12T15:24:52.316299Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.417826s",
+      "megaCycles": "28",
+      "pendingTime": "0.095003810s"
+    },
+    "timestamp": "2026-11-12T15:24:52.314426Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.386264s",
+      "megaCycles": "6",
+      "pendingTime": "0.097443120s"
+    },
+    "timestamp": "2026-11-12T15:24:52.221719Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.385455s",
+      "megaCycles": "69",
+      "pendingTime": "0.097673480s"
+    },
+    "timestamp": "2026-11-12T15:24:52.221045Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.287084s",
+      "megaCycles": "64",
+      "pendingTime": "0.097884871s"
+    },
+    "timestamp": "2026-11-12T15:24:52.220400Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.490902s",
+      "megaCycles": "5",
+      "pendingTime": "0.186366631s"
+    },
+    "timestamp": "2026-11-12T15:24:52.117638Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.586233s",
+      "megaCycles": "6",
+      "pendingTime": "0.282179010s"
+    },
+    "timestamp": "2026-11-12T15:24:52.021738Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.587727s",
+      "megaCycles": "6",
+      "pendingTime": "0.282237771s"
+    },
+    "timestamp": "2026-11-12T15:24:52.021523Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.392249s",
+      "megaCycles": "31",
+      "pendingTime": "0.189698649s"
+    },
+    "timestamp": "2026-11-12T15:24:52.019559Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.393257s",
+      "megaCycles": "31",
+      "pendingTime": "0.190837509s"
+    },
+    "timestamp": "2026-11-12T15:24:52.018564Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.304299s",
+      "megaCycles": "1",
+      "pendingTime": "0.090511260s"
+    },
+    "timestamp": "2026-11-12T15:24:52.016311Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.387801s",
+      "megaCycles": "16",
+      "pendingTime": "0.073709919s"
+    },
+    "timestamp": "2026-11-12T15:24:51.932448Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.391766s",
+      "megaCycles": "16",
+      "pendingTime": "0.077524729s"
+    },
+    "timestamp": "2026-11-12T15:24:51.928481Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.469988s",
+      "megaCycles": "3",
+      "pendingTime": "0.169710970s"
+    },
+    "timestamp": "2026-11-12T15:24:51.836229Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.483895s",
+      "megaCycles": "25",
+      "pendingTime": "0.183364730s"
+    },
+    "timestamp": "2026-11-12T15:24:51.821915Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.489954s",
+      "megaCycles": "25",
+      "pendingTime": "0.188964288s"
+    },
+    "timestamp": "2026-11-12T15:24:51.815832Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.487270s",
+      "megaCycles": "74",
+      "pendingTime": "0.105268520s"
+    },
+    "timestamp": "2026-11-12T15:24:51.721822Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.489460s",
+      "megaCycles": "4",
+      "pendingTime": "0.199641979s"
+    },
+    "timestamp": "2026-11-12T15:24:51.721642Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.285600s",
+      "pendingTime": "0.084255779s"
+    },
+    "timestamp": "2026-11-12T15:24:51.721538Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.489654s",
+      "megaCycles": "4",
+      "pendingTime": "0.197939209s"
+    },
+    "timestamp": "2026-11-12T15:24:51.721460Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.287781s",
+      "megaCycles": "1",
+      "pendingTime": "0.085487060s"
+    },
+    "timestamp": "2026-11-12T15:24:51.719876Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.206689s",
+      "megaCycles": "7"
+    },
+    "timestamp": "2026-11-12T15:24:51.716339Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.461426s",
+      "megaCycles": "67",
+      "pendingTime": "0.060136850s"
+    },
+    "timestamp": "2026-11-12T15:24:51.646784Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.365669s",
+      "megaCycles": "4",
+      "pendingTime": "0.065444640s"
+    },
+    "timestamp": "2026-11-12T15:24:51.642299Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.366690s",
+      "megaCycles": "4",
+      "pendingTime": "0.065194310s"
+    },
+    "timestamp": "2026-11-12T15:24:51.640838Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.374232s",
+      "megaCycles": "51",
+      "pendingTime": "0.073484390s"
+    },
+    "timestamp": "2026-11-12T15:24:51.632879Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.177959s",
+      "megaCycles": "10",
+      "pendingTime": "0.005548860s"
+    },
+    "timestamp": "2026-11-12T15:24:51.629658Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.302942s",
+      "megaCycles": "68",
+      "pendingTime": "0.014876850s"
+    },
+    "timestamp": "2026-11-12T15:24:51.618389Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.090423s",
+      "megaCycles": "23",
+      "pendingTime": "0.006906970s"
+    },
+    "timestamp": "2026-11-12T15:24:51.617512Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.189387s",
+      "megaCycles": "41",
+      "pendingTime": "0.014611640s"
+    },
+    "timestamp": "2026-11-12T15:24:51.617235Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.095612s",
+      "megaCycles": "19",
+      "pendingTime": "0.003703410s"
+    },
+    "timestamp": "2026-11-12T15:24:51.616421Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.094246s",
+      "megaCycles": "10"
+    },
+    "timestamp": "2026-11-12T15:24:51.614889Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.113975s",
+      "megaCycles": "23",
+      "pendingTime": "0.011987360s"
+    },
+    "timestamp": "2026-11-12T15:24:51.593960Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.049905s",
+      "megaCycles": "28",
+      "pendingTime": "0.022040649s"
+    },
+    "timestamp": "2026-11-12T15:24:51.583577Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.051418s",
+      "megaCycles": "5",
+      "pendingTime": "0.020943240s"
+    },
+    "timestamp": "2026-11-12T15:24:51.583413Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.056314s",
+      "megaCycles": "18",
+      "pendingTime": "0.023222909s"
+    },
+    "timestamp": "2026-11-12T15:24:51.581097Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.135522s",
+      "megaCycles": "23",
+      "pendingTime": "0.011390480s"
+    },
+    "timestamp": "2026-11-12T15:24:51.572430Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.052784s",
+      "megaCycles": "44",
+      "pendingTime": "0.005952649s"
+    },
+    "timestamp": "2026-11-12T15:24:51.569143Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.057463s",
+      "megaCycles": "20",
+      "pendingTime": "0.004180629s"
+    },
+    "timestamp": "2026-11-12T15:24:51.568316Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.040449s",
+      "megaCycles": "6",
+      "pendingTime": "0.002834960s"
+    },
+    "timestamp": "2026-11-12T15:24:51.567362Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.056793s",
+      "megaCycles": "18",
+      "pendingTime": "0.011655090s"
+    },
+    "timestamp": "2026-11-12T15:24:51.549030Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.282668s",
+      "megaCycles": "30",
+      "pendingTime": "0.012400s"
+    },
+    "timestamp": "2026-11-12T15:24:51.545975Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.065332s",
+      "megaCycles": "21",
+      "pendingTime": "0.012096390s"
+    },
+    "timestamp": "2026-11-12T15:24:51.544731Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.033322s",
+      "megaCycles": "42",
+      "pendingTime": "0.000368170s"
+    },
+    "timestamp": "2026-11-12T15:24:51.539103Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.040350s",
+      "megaCycles": "18"
+    },
+    "timestamp": "2026-11-12T15:24:51.536005Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.055976s",
+      "megaCycles": "36",
+      "pendingTime": "0.005817220s"
+    },
+    "timestamp": "2026-11-12T15:24:51.529362Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.084974s",
+      "megaCycles": "18",
+      "pendingTime": "0.008092620s"
+    },
+    "timestamp": "2026-11-12T15:24:51.520833Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.041753s",
+      "megaCycles": "8",
+      "pendingTime": "0.006302010s"
+    },
+    "timestamp": "2026-11-12T15:24:51.520366Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.054678s",
+      "megaCycles": "11"
+    },
+    "timestamp": "2026-11-12T15:24:51.519261Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.041260s",
+      "megaCycles": "11"
+    },
+    "timestamp": "2026-11-12T15:24:51.518760Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.088724s",
+      "megaCycles": "12",
+      "pendingTime": "0.011389020s"
+    },
+    "timestamp": "2026-11-12T15:24:51.518538Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.026653s",
+      "megaCycles": "21"
+    },
+    "timestamp": "2026-11-12T15:24:51.514312Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.228843s",
+      "pendingTime": "0.025468960s"
+    },
+    "timestamp": "2026-11-12T15:24:51.480511Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.084870s",
+      "megaCycles": "5",
+      "pendingTime": "0.029508230s"
+    },
+    "timestamp": "2026-11-12T15:24:51.475688Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.062269s",
+      "megaCycles": "24",
+      "pendingTime": "0.029738360s"
+    },
+    "timestamp": "2026-11-12T15:24:51.474671Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.068899s",
+      "pendingTime": "0.036311860s"
+    },
+    "timestamp": "2026-11-12T15:24:51.468050Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.066200s",
+      "megaCycles": "42",
+      "pendingTime": "0.006356080s"
+    },
+    "timestamp": "2026-11-12T15:24:51.462432Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.063063s",
+      "megaCycles": "51",
+      "pendingTime": "0.008840490s"
+    },
+    "timestamp": "2026-11-12T15:24:51.457432Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.077237s",
+      "megaCycles": "12",
+      "pendingTime": "0.012482650s"
+    },
+    "timestamp": "2026-11-12T15:24:51.453531Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.056298s",
+      "megaCycles": "6",
+      "pendingTime": "0.001318020s"
+    },
+    "timestamp": "2026-11-12T15:24:51.452613Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.106049s",
+      "megaCycles": "49",
+      "pendingTime": "0.006649650s"
+    },
+    "timestamp": "2026-11-12T15:24:51.452277Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.058979s",
+      "megaCycles": "6"
+    },
+    "timestamp": "2026-11-12T15:24:51.449939Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.059123s",
+      "megaCycles": "6"
+    },
+    "timestamp": "2026-11-12T15:24:51.449800Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.060446s",
+      "megaCycles": "27"
+    },
+    "timestamp": "2026-11-12T15:24:51.445645Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.069842s",
+      "megaCycles": "27",
+      "pendingTime": "0.006047330s"
+    },
+    "timestamp": "2026-11-12T15:24:51.436273Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.037658s",
+      "megaCycles": "15",
+      "pendingTime": "0.008165060s"
+    },
+    "timestamp": "2026-11-12T15:24:51.432884Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.036346s",
+      "megaCycles": "31",
+      "pendingTime": "0.003748050s"
+    },
+    "timestamp": "2026-11-12T15:24:51.431341Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.046622s",
+      "megaCycles": "1",
+      "pendingTime": "0.013468110s"
+    },
+    "timestamp": "2026-11-12T15:24:51.421438Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.039701s",
+      "megaCycles": "28",
+      "pendingTime": "0.006167770s"
+    },
+    "timestamp": "2026-11-12T15:24:51.421015Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.031756s",
+      "megaCycles": "23",
+      "pendingTime": "0.003545940s"
+    },
+    "timestamp": "2026-11-12T15:24:51.418839Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.037001s",
+      "megaCycles": "28",
+      "pendingTime": "0.003791220s"
+    },
+    "timestamp": "2026-11-12T15:24:51.418327Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.090007s",
+      "megaCycles": "5"
+    },
+    "timestamp": "2026-11-12T15:24:51.416722Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.029734s",
+      "megaCycles": "3"
+    },
+    "timestamp": "2026-11-12T15:24:51.414800Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.052314s",
+      "megaCycles": "7",
+      "pendingTime": "0.016202930s"
+    },
+    "timestamp": "2026-11-12T15:24:51.391792Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.056776s",
+      "megaCycles": "9",
+      "pendingTime": "0.016759090s"
+    },
+    "timestamp": "2026-11-12T15:24:51.389994Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.057177s",
+      "megaCycles": "33",
+      "pendingTime": "0.025882909s"
+    },
+    "timestamp": "2026-11-12T15:24:51.379338Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.065572s",
+      "pendingTime": "0.008968591s"
+    },
+    "timestamp": "2026-11-12T15:24:51.371277Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.071851s",
+      "megaCycles": "36",
+      "pendingTime": "0.034315689s"
+    },
+    "timestamp": "2026-11-12T15:24:51.371051Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.052832s",
+      "megaCycles": "21",
+      "pendingTime": "0.007677391s"
+    },
+    "timestamp": "2026-11-12T15:24:51.370957Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.055145s",
+      "megaCycles": "21",
+      "pendingTime": "0.000339s"
+    },
+    "timestamp": "2026-11-12T15:24:51.368645Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.042364s",
+      "megaCycles": "8"
+    },
+    "timestamp": "2026-11-12T15:24:51.367657Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.062007s",
+      "megaCycles": "32"
+    },
+    "timestamp": "2026-11-12T15:24:51.366829Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.048007s",
+      "megaCycles": "3"
+    },
+    "timestamp": "2026-11-12T15:24:51.366641Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.045989s",
+      "megaCycles": "23"
+    },
+    "timestamp": "2026-11-12T15:24:51.361322Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.036775s",
+      "megaCycles": "9",
+      "pendingTime": "0.010881080s"
+    },
+    "timestamp": "2026-11-12T15:24:51.344797Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.064206s",
+      "megaCycles": "23",
+      "pendingTime": "0.011830169s"
+    },
+    "timestamp": "2026-11-12T15:24:51.343084Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.071464s",
+      "megaCycles": "29",
+      "pendingTime": "0.011996080s"
+    },
+    "timestamp": "2026-11-12T15:24:51.342033Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.040033s",
+      "megaCycles": "43",
+      "pendingTime": "0.010554109s"
+    },
+    "timestamp": "2026-11-12T15:24:51.340231Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.032826s",
+      "megaCycles": "26"
+    },
+    "timestamp": "2026-11-12T15:24:51.337655Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.027947s",
+      "megaCycles": "7"
+    },
+    "timestamp": "2026-11-12T15:24:51.335978Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.027448s",
+      "megaCycles": "30"
+    },
+    "timestamp": "2026-11-12T15:24:51.335161Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.037107s",
+      "megaCycles": "20",
+      "pendingTime": "0.010345950s"
+    },
+    "timestamp": "2026-11-12T15:24:51.318510Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.039532s",
+      "megaCycles": "5",
+      "pendingTime": "0.010684970s"
+    },
+    "timestamp": "2026-11-12T15:24:51.317768Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.042753s",
+      "megaCycles": "13",
+      "pendingTime": "0.009813380s"
+    },
+    "timestamp": "2026-11-12T15:24:51.315833Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.058009s",
+      "megaCycles": "7",
+      "pendingTime": "0.026820690s"
+    },
+    "timestamp": "2026-11-12T15:24:51.298423Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.040822s",
+      "megaCycles": "16",
+      "pendingTime": "0.011156030s"
+    },
+    "timestamp": "2026-11-12T15:24:51.296496Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.112708s",
+      "megaCycles": "12",
+      "pendingTime": "0.009690240s"
+    },
+    "timestamp": "2026-11-12T15:24:51.296370Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.037860s",
+      "megaCycles": "10",
+      "pendingTime": "0.009064640s"
+    },
+    "timestamp": "2026-11-12T15:24:51.296228Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.038208s",
+      "megaCycles": "7"
+    },
+    "timestamp": "2026-11-12T15:24:51.294733Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.047215s",
+      "megaCycles": "6",
+      "pendingTime": "0.003705100s"
+    },
+    "timestamp": "2026-11-12T15:24:51.284319Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.050968s",
+      "megaCycles": "26",
+      "pendingTime": "0.006484860s"
+    },
+    "timestamp": "2026-11-12T15:24:51.279571Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.053887s",
+      "megaCycles": "63",
+      "pendingTime": "0.012830520s"
+    },
+    "timestamp": "2026-11-12T15:24:51.273140Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.056389s",
+      "megaCycles": "2",
+      "pendingTime": "0.012383660s"
+    },
+    "timestamp": "2026-11-12T15:24:51.271198Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.044512s",
+      "megaCycles": "9",
+      "pendingTime": "0.009122930s"
+    },
+    "timestamp": "2026-11-12T15:24:51.264826Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.044772s",
+      "megaCycles": "7",
+      "pendingTime": "0.004513910s"
+    },
+    "timestamp": "2026-11-12T15:24:51.263056Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.049658s",
+      "megaCycles": "30",
+      "pendingTime": "0.006371400s"
+    },
+    "timestamp": "2026-11-12T15:24:51.257051Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.108490s",
+      "megaCycles": "7",
+      "pendingTime": "0.005809420s"
+    },
+    "timestamp": "2026-11-12T15:24:51.256405Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.103238s",
+      "megaCycles": "62",
+      "pendingTime": "0.007361250s"
+    },
+    "timestamp": "2026-11-12T15:24:51.249317Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.048648s",
+      "megaCycles": "31",
+      "pendingTime": "0.018053400s"
+    },
+    "timestamp": "2026-11-12T15:24:51.236682Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.040022s",
+      "megaCycles": "18",
+      "pendingTime": "0.012710180s"
+    },
+    "timestamp": "2026-11-12T15:24:51.235395Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.058879s",
+      "megaCycles": "5",
+      "pendingTime": "0.017013140s"
+    },
+    "timestamp": "2026-11-12T15:24:51.229381Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.048503s",
+      "megaCycles": "23",
+      "pendingTime": "0.019142700s"
+    },
+    "timestamp": "2026-11-12T15:24:51.221769Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.043219s",
+      "megaCycles": "34",
+      "pendingTime": "0.007289310s"
+    },
+    "timestamp": "2026-11-12T15:24:51.220959Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.037698s",
+      "megaCycles": "13",
+      "pendingTime": "0.006116550s"
+    },
+    "timestamp": "2026-11-12T15:24:51.220801Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.030648s",
+      "megaCycles": "5",
+      "pendingTime": "0.001654670s"
+    },
+    "timestamp": "2026-11-12T15:24:51.219282Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.084998s",
+      "megaCycles": "1",
+      "pendingTime": "0.028829760s"
+    },
+    "timestamp": "2026-11-12T15:24:51.180094Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.063608s",
+      "megaCycles": "51",
+      "pendingTime": "0.029877020s"
+    },
+    "timestamp": "2026-11-12T15:24:51.178961Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.078492s",
+      "megaCycles": "27",
+      "pendingTime": "0.030774190s"
+    },
+    "timestamp": "2026-11-12T15:24:51.177652Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.072352s",
+      "megaCycles": "20",
+      "pendingTime": "0.032880340s"
+    },
+    "timestamp": "2026-11-12T15:24:51.175787Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.115760s",
+      "megaCycles": "14"
+    },
+    "timestamp": "2026-11-12T15:24:51.174216Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.050675s",
+      "megaCycles": "45"
+    },
+    "timestamp": "2026-11-12T15:24:51.172234Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.115418s",
+      "megaCycles": "15"
+    },
+    "timestamp": "2026-11-12T15:24:51.172203Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.132029s",
+      "megaCycles": "7",
+      "pendingTime": "0.007322539s"
+    },
+    "timestamp": "2026-11-12T15:24:51.159286Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.075872s",
+      "megaCycles": "5",
+      "pendingTime": "0.011453540s"
+    },
+    "timestamp": "2026-11-12T15:24:51.153986Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.058838s",
+      "megaCycles": "21",
+      "pendingTime": "0.010943969s"
+    },
+    "timestamp": "2026-11-12T15:24:51.151414Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.059814s",
+      "megaCycles": "21",
+      "pendingTime": "0.011543460s"
+    },
+    "timestamp": "2026-11-12T15:24:51.150438Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.060899s",
+      "megaCycles": "21",
+      "pendingTime": "0.000047920s"
+    },
+    "timestamp": "2026-11-12T15:24:51.149394Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.084041s",
+      "megaCycles": "18",
+      "pendingTime": "0.000947100s"
+    },
+    "timestamp": "2026-11-12T15:24:51.144314Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.070089s",
+      "megaCycles": "21",
+      "pendingTime": "0.003378349s"
+    },
+    "timestamp": "2026-11-12T15:24:51.140163Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.030285s",
+      "pendingTime": "0.001086220s"
+    },
+    "timestamp": "2026-11-12T15:24:51.138973Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.041969s",
+      "megaCycles": "8",
+      "pendingTime": "0.007921760s"
+    },
+    "timestamp": "2026-11-12T15:24:51.130899Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.049215s",
+      "megaCycles": "10",
+      "pendingTime": "0.015719329s"
+    },
+    "timestamp": "2026-11-12T15:24:51.119882Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.045470s",
+      "megaCycles": "30",
+      "pendingTime": "0.014350479s"
+    },
+    "timestamp": "2026-11-12T15:24:51.118325Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.053827s",
+      "megaCycles": "16",
+      "pendingTime": "0.012565809s"
+    },
+    "timestamp": "2026-11-12T15:24:51.117732Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.034850s",
+      "megaCycles": "21",
+      "pendingTime": "0.004388639s"
+    },
+    "timestamp": "2026-11-12T15:24:51.116731Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.030118s",
+      "megaCycles": "3"
+    },
+    "timestamp": "2026-11-12T15:24:51.111989Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.050257s",
+      "megaCycles": "24",
+      "pendingTime": "0.012746180s"
+    },
+    "timestamp": "2026-11-12T15:24:51.094711Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.042425s",
+      "megaCycles": "18",
+      "pendingTime": "0.012222790s"
+    },
+    "timestamp": "2026-11-12T15:24:51.094650Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.046483s",
+      "megaCycles": "11",
+      "pendingTime": "0.016167880s"
+    },
+    "timestamp": "2026-11-12T15:24:51.087482Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.047028s",
+      "megaCycles": "25",
+      "pendingTime": "0.000937130s"
+    },
+    "timestamp": "2026-11-12T15:24:51.084519Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.062025s",
+      "megaCycles": "25",
+      "pendingTime": "0.003123970s"
+    },
+    "timestamp": "2026-11-12T15:24:51.079430Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.071498s",
+      "megaCycles": "11",
+      "pendingTime": "0.002715140s"
+    },
+    "timestamp": "2026-11-12T15:24:51.075577Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.047408s",
+      "megaCycles": "49"
+    },
+    "timestamp": "2026-11-12T15:24:51.075465Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.044251s",
+      "megaCycles": "6",
+      "pendingTime": "0.001273970s"
+    },
+    "timestamp": "2026-11-12T15:24:51.064821Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.115144s",
+      "megaCycles": "25",
+      "pendingTime": "0.012058610s"
+    },
+    "timestamp": "2026-11-12T15:24:51.052619Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.054444s",
+      "megaCycles": "69",
+      "pendingTime": "0.013384230s"
+    },
+    "timestamp": "2026-11-12T15:24:51.050773Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.058787s",
+      "pendingTime": "0.004637510s"
+    },
+    "timestamp": "2026-11-12T15:24:51.050422Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.035541s",
+      "megaCycles": "24"
+    },
+    "timestamp": "2026-11-12T15:24:51.049513Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.042503s",
+      "megaCycles": "8"
+    },
+    "timestamp": "2026-11-12T15:24:51.044529Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.033385s",
+      "megaCycles": "27"
+    },
+    "timestamp": "2026-11-12T15:24:51.044132Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.050311s",
+      "megaCycles": "18",
+      "pendingTime": "0.008885870s"
+    },
+    "timestamp": "2026-11-12T15:24:51.030362Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.046142s",
+      "pendingTime": "0.013897340s"
+    },
+    "timestamp": "2026-11-12T15:24:51.019681Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.089977s",
+      "megaCycles": "32",
+      "pendingTime": "0.013381450s"
+    },
+    "timestamp": "2026-11-12T15:24:51.018573Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.051713s",
+      "megaCycles": "32",
+      "pendingTime": "0.006255210s"
+    },
+    "timestamp": "2026-11-12T15:24:51.013926Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.053569s",
+      "megaCycles": "14",
+      "pendingTime": "0.017500670s"
+    },
+    "timestamp": "2026-11-12T15:24:50.987762Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.053617s",
+      "megaCycles": "14",
+      "pendingTime": "0.020841970s"
+    },
+    "timestamp": "2026-11-12T15:24:50.987712Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.050771s",
+      "megaCycles": "6",
+      "pendingTime": "0.020498430s"
+    },
+    "timestamp": "2026-11-12T15:24:50.984435Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.050006s",
+      "megaCycles": "21"
+    },
+    "timestamp": "2026-11-12T15:24:50.983729Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.068196s",
+      "megaCycles": "28"
+    },
+    "timestamp": "2026-11-12T15:24:50.978989Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.084132s",
+      "megaCycles": "36",
+      "pendingTime": "0.004492290s"
+    },
+    "timestamp": "2026-11-12T15:24:50.972461Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.193064s",
+      "megaCycles": "30",
+      "pendingTime": "0.004521780s"
+    },
+    "timestamp": "2026-11-12T15:24:50.970748Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.076191s",
+      "megaCycles": "6",
+      "pendingTime": "0.004935s"
+    },
+    "timestamp": "2026-11-12T15:24:50.966512Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.040594s",
+      "megaCycles": "4"
+    },
+    "timestamp": "2026-11-12T15:24:50.966375Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.056656s",
+      "megaCycles": "61"
+    },
+    "timestamp": "2026-11-12T15:24:50.965996Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.055739s",
+      "megaCycles": "40",
+      "pendingTime": "0.004977160s"
+    },
+    "timestamp": "2026-11-12T15:24:50.950587Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.124616s",
+      "megaCycles": "15",
+      "pendingTime": "0.008571800s"
+    },
+    "timestamp": "2026-11-12T15:24:50.943979Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.076097s",
+      "megaCycles": "19",
+      "pendingTime": "0.020832760s"
+    },
+    "timestamp": "2026-11-12T15:24:50.934225Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.054323s",
+      "megaCycles": "5",
+      "pendingTime": "0.014331500s"
+    },
+    "timestamp": "2026-11-12T15:24:50.925971Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.042197s",
+      "megaCycles": "34",
+      "pendingTime": "0.013167431s"
+    },
+    "timestamp": "2026-11-12T15:24:50.921588Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.055480s",
+      "megaCycles": "28",
+      "pendingTime": "0.001166551s"
+    },
+    "timestamp": "2026-11-12T15:24:50.921382Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.036924s"
+    },
+    "timestamp": "2026-11-12T15:24:50.920205Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.044472s"
+    },
+    "timestamp": "2026-11-12T15:24:50.919344Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.053569s",
+      "megaCycles": "31"
+    },
+    "timestamp": "2026-11-12T15:24:50.919242Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.062627s",
+      "megaCycles": "2"
+    },
+    "timestamp": "2026-11-12T15:24:50.916249Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.039424s",
+      "megaCycles": "38",
+      "pendingTime": "0.009079270s"
+    },
+    "timestamp": "2026-11-12T15:24:50.896779Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.061788s",
+      "megaCycles": "21",
+      "pendingTime": "0.025045970s"
+    },
+    "timestamp": "2026-11-12T15:24:50.880668Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.077353s",
+      "pendingTime": "0.025275039s"
+    },
+    "timestamp": "2026-11-12T15:24:50.880071Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.078921s",
+      "megaCycles": "57",
+      "pendingTime": "0.026011009s"
+    },
+    "timestamp": "2026-11-12T15:24:50.878178Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.106185s",
+      "megaCycles": "22",
+      "pendingTime": "0.014584320s"
+    },
+    "timestamp": "2026-11-12T15:24:50.872629Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.038469s",
+      "megaCycles": "5",
+      "pendingTime": "0.002645140s"
+    },
+    "timestamp": "2026-11-12T15:24:50.869935Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.052248s",
+      "megaCycles": "20",
+      "pendingTime": "0.003066230s"
+    },
+    "timestamp": "2026-11-12T15:24:50.866091Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.043558s",
+      "megaCycles": "16",
+      "pendingTime": "0.006523580s"
+    },
+    "timestamp": "2026-11-12T15:24:50.863246Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.060640s",
+      "megaCycles": "3",
+      "pendingTime": "0.014447560s"
+    },
+    "timestamp": "2026-11-12T15:24:50.847947Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.078376s",
+      "megaCycles": "49",
+      "pendingTime": "0.015014900s"
+    },
+    "timestamp": "2026-11-12T15:24:50.845724Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.047439s",
+      "megaCycles": "44",
+      "pendingTime": "0.014545450s"
+    },
+    "timestamp": "2026-11-12T15:24:50.841332Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.068091s",
+      "megaCycles": "2"
+    },
+    "timestamp": "2026-11-12T15:24:50.838911Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.068996s",
+      "megaCycles": "6",
+      "pendingTime": "0.015508960s"
+    },
+    "timestamp": "2026-11-12T15:24:50.838540Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.037571s",
+      "megaCycles": "27"
+    },
+    "timestamp": "2026-11-12T15:24:50.836967Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.036099s",
+      "megaCycles": "18"
+    },
+    "timestamp": "2026-11-12T15:24:50.835059Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.044370s",
+      "megaCycles": "27",
+      "pendingTime": "0.008383750s"
+    },
+    "timestamp": "2026-11-12T15:24:50.818632Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.040762s",
+      "megaCycles": "4",
+      "pendingTime": "0.007118750s"
+    },
+    "timestamp": "2026-11-12T15:24:50.816439Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.062024s",
+      "megaCycles": "59",
+      "pendingTime": "0.031856500s"
+    },
+    "timestamp": "2026-11-12T15:24:50.794213Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.071213s",
+      "megaCycles": "2",
+      "pendingTime": "0.032430850s"
+    },
+    "timestamp": "2026-11-12T15:24:50.792880Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.048187s",
+      "megaCycles": "24",
+      "pendingTime": "0.016280430s"
+    },
+    "timestamp": "2026-11-12T15:24:50.791819Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.047596s",
+      "megaCycles": "7",
+      "pendingTime": "0.016488530s"
+    },
+    "timestamp": "2026-11-12T15:24:50.790025Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.083942s",
+      "megaCycles": "18"
+    },
+    "timestamp": "2026-11-12T15:24:50.787204Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.046731s",
+      "pendingTime": "0.000349320s"
+    },
+    "timestamp": "2026-11-12T15:24:50.780669Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.050566s",
+      "megaCycles": "60",
+      "pendingTime": "0.003420780s"
+    },
+    "timestamp": "2026-11-12T15:24:50.776760Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.059179s",
+      "megaCycles": "31",
+      "pendingTime": "0.003549900s"
+    },
+    "timestamp": "2026-11-12T15:24:50.776090Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.065696s",
+      "megaCycles": "11",
+      "pendingTime": "0.012631480s"
+    },
+    "timestamp": "2026-11-12T15:24:50.763833Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.069156s",
+      "pendingTime": "0.013589260s"
+    },
+    "timestamp": "2026-11-12T15:24:50.758226Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.053498s",
+      "megaCycles": "14",
+      "pendingTime": "0.011899330s"
+    },
+    "timestamp": "2026-11-12T15:24:50.756233Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.158795s",
+      "megaCycles": "21",
+      "pendingTime": "0.001429170s"
+    },
+    "timestamp": "2026-11-12T15:24:50.752217Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.055781s",
+      "megaCycles": "44",
+      "pendingTime": "0.014741770s"
+    },
+    "timestamp": "2026-11-12T15:24:50.752164Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.037836s",
+      "megaCycles": "29"
+    },
+    "timestamp": "2026-11-12T15:24:50.750362Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.042446s",
+      "pendingTime": "0.008413430s"
+    },
+    "timestamp": "2026-11-12T15:24:50.739090Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.045165s",
+      "megaCycles": "27",
+      "pendingTime": "0.003160240s"
+    },
+    "timestamp": "2026-11-12T15:24:50.736327Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.048983s",
+      "megaCycles": "7",
+      "pendingTime": "0.006447450s"
+    },
+    "timestamp": "2026-11-12T15:24:50.733696Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.037944s",
+      "megaCycles": "6",
+      "pendingTime": "0.008373690s"
+    },
+    "timestamp": "2026-11-12T15:24:50.731611Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.036873s",
+      "megaCycles": "61"
+    },
+    "timestamp": "2026-11-12T15:24:50.731445Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.175524s",
+      "megaCycles": "46"
+    },
+    "timestamp": "2026-11-12T15:24:50.730277Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.060712s",
+      "megaCycles": "22",
+      "pendingTime": "0.004694860s"
+    },
+    "timestamp": "2026-11-12T15:24:50.712363Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.085249s",
+      "megaCycles": "19",
+      "pendingTime": "0.023424260s"
+    },
+    "timestamp": "2026-11-12T15:24:50.693633Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.068170s",
+      "megaCycles": "43",
+      "pendingTime": "0.036151520s"
+    },
+    "timestamp": "2026-11-12T15:24:50.681354Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.073628s",
+      "megaCycles": "16",
+      "pendingTime": "0.038470940s"
+    },
+    "timestamp": "2026-11-12T15:24:50.678624Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.087545s",
+      "megaCycles": "23",
+      "pendingTime": "0.036837189s"
+    },
+    "timestamp": "2026-11-12T15:24:50.667334Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.075163s",
+      "megaCycles": "12",
+      "pendingTime": "0.016682699s"
+    },
+    "timestamp": "2026-11-12T15:24:50.666474Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.054793s",
+      "pendingTime": "0.006143500s"
+    },
+    "timestamp": "2026-11-12T15:24:50.664316Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.055438s",
+      "pendingTime": "0.007296040s"
+    },
+    "timestamp": "2026-11-12T15:24:50.663671Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.042894s",
+      "megaCycles": "54"
+    },
+    "timestamp": "2026-11-12T15:24:50.662494Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.070209s",
+      "megaCycles": "26",
+      "pendingTime": "0.008402910s"
+    },
+    "timestamp": "2026-11-12T15:24:50.648587Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.074497s",
+      "megaCycles": "1",
+      "pendingTime": "0.010922270s"
+    },
+    "timestamp": "2026-11-12T15:24:50.644968Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.079275s",
+      "megaCycles": "1",
+      "pendingTime": "0.010201820s"
+    },
+    "timestamp": "2026-11-12T15:24:50.639729Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.046558s",
+      "megaCycles": "34",
+      "pendingTime": "0.011186450s"
+    },
+    "timestamp": "2026-11-12T15:24:50.637867Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.047119s",
+      "megaCycles": "57",
+      "pendingTime": "0.014393770s"
+    },
+    "timestamp": "2026-11-12T15:24:50.624630Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.054055s",
+      "megaCycles": "10",
+      "pendingTime": "0.015948290s"
+    },
+    "timestamp": "2026-11-12T15:24:50.619259Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.039567s",
+      "megaCycles": "42",
+      "pendingTime": "0.009239450s"
+    },
+    "timestamp": "2026-11-12T15:24:50.618561Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.042563s",
+      "megaCycles": "5",
+      "pendingTime": "0.009756210s"
+    },
+    "timestamp": "2026-11-12T15:24:50.617656Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.081389s",
+      "megaCycles": "7",
+      "pendingTime": "0.037851670s"
+    },
+    "timestamp": "2026-11-12T15:24:50.577902Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.078403s",
+      "megaCycles": "5",
+      "pendingTime": "0.034118270s"
+    },
+    "timestamp": "2026-11-12T15:24:50.573715Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.067696s",
+      "megaCycles": "23",
+      "pendingTime": "0.033847580s"
+    },
+    "timestamp": "2026-11-12T15:24:50.573263Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.171728s",
+      "megaCycles": "12",
+      "pendingTime": "0.037093900s"
+    },
+    "timestamp": "2026-11-12T15:24:50.569888Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.071446s",
+      "megaCycles": "25",
+      "pendingTime": "0.003286740s"
+    },
+    "timestamp": "2026-11-12T15:24:50.565692Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.162828s",
+      "megaCycles": "58",
+      "pendingTime": "0.000661150s"
+    },
+    "timestamp": "2026-11-12T15:24:50.564631Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.064921s",
+      "megaCycles": "23"
+    },
+    "timestamp": "2026-11-12T15:24:50.564276Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.068839s",
+      "megaCycles": "23",
+      "pendingTime": "0.000431130s"
+    },
+    "timestamp": "2026-11-12T15:24:50.560369Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.061050s",
+      "megaCycles": "35",
+      "pendingTime": "0.000959440s"
+    },
+    "timestamp": "2026-11-12T15:24:50.556260Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.060340s",
+      "megaCycles": "3",
+      "pendingTime": "0.006714780s"
+    },
+    "timestamp": "2026-11-12T15:24:50.548797Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.062657s",
+      "megaCycles": "2",
+      "pendingTime": "0.006693760s"
+    },
+    "timestamp": "2026-11-12T15:24:50.546830Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.200942s",
+      "megaCycles": "12",
+      "pendingTime": "0.005626220s"
+    },
+    "timestamp": "2026-11-12T15:24:50.540674Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.071810s",
+      "megaCycles": "70",
+      "pendingTime": "0.009455840s"
+    },
+    "timestamp": "2026-11-12T15:24:50.536948Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.041509s",
+      "megaCycles": "19",
+      "pendingTime": "0.011517590s"
+    },
+    "timestamp": "2026-11-12T15:24:50.528751Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.038681s",
+      "pendingTime": "0.011774650s"
+    },
+    "timestamp": "2026-11-12T15:24:50.524140Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.043804s",
+      "megaCycles": "24",
+      "pendingTime": "0.007461740s"
+    },
+    "timestamp": "2026-11-12T15:24:50.523005Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.040069s",
+      "megaCycles": "32",
+      "pendingTime": "0.004868760s"
+    },
+    "timestamp": "2026-11-12T15:24:50.522731Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.033691s",
+      "megaCycles": "31"
+    },
+    "timestamp": "2026-11-12T15:24:50.521796Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.037594s",
+      "megaCycles": "11"
+    },
+    "timestamp": "2026-11-12T15:24:50.521301Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.039439s",
+      "megaCycles": "8"
+    },
+    "timestamp": "2026-11-12T15:24:50.517711Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.059170s",
+      "megaCycles": "19",
+      "pendingTime": "0.024374509s"
+    },
+    "timestamp": "2026-11-12T15:24:50.482964Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.066044s",
+      "megaCycles": "18",
+      "pendingTime": "0.024501999s"
+    },
+    "timestamp": "2026-11-12T15:24:50.482112Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.070958s",
+      "megaCycles": "18",
+      "pendingTime": "0.030081600s"
+    },
+    "timestamp": "2026-11-12T15:24:50.477242Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.175317s",
+      "megaCycles": "23",
+      "pendingTime": "0.031477650s"
+    },
+    "timestamp": "2026-11-12T15:24:50.475501Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.057761s",
+      "megaCycles": "15"
+    },
+    "timestamp": "2026-11-12T15:24:50.475483Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.055221s",
+      "megaCycles": "53"
+    },
+    "timestamp": "2026-11-12T15:24:50.474833Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.065241s",
+      "megaCycles": "26"
+    },
+    "timestamp": "2026-11-12T15:24:50.472384Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.051127s",
+      "megaCycles": "22"
+    },
+    "timestamp": "2026-11-12T15:24:50.469334Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.058321s",
+      "megaCycles": "33",
+      "pendingTime": "0.012491210s"
+    },
+    "timestamp": "2026-11-12T15:24:50.450407Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.062422s",
+      "megaCycles": "33",
+      "pendingTime": "0.016977120s"
+    },
+    "timestamp": "2026-11-12T15:24:50.446267Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.071040s",
+      "megaCycles": "34",
+      "pendingTime": "0.019652719s"
+    },
+    "timestamp": "2026-11-12T15:24:50.442193Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.069688s",
+      "pendingTime": "0.019467410s"
+    },
+    "timestamp": "2026-11-12T15:24:50.439154Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.070242s",
+      "pendingTime": "0.004300590s"
+    },
+    "timestamp": "2026-11-12T15:24:50.438606Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.038649s",
+      "megaCycles": "17",
+      "pendingTime": "0.000921660s"
+    },
+    "timestamp": "2026-11-12T15:24:50.436905Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.052654s",
+      "megaCycles": "10",
+      "pendingTime": "0.014099800s"
+    },
+    "timestamp": "2026-11-12T15:24:50.420866Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.044616s",
+      "megaCycles": "1",
+      "pendingTime": "0.010415900s"
+    },
+    "timestamp": "2026-11-12T15:24:50.420041Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.089353s",
+      "megaCycles": "33",
+      "pendingTime": "0.009455100s"
+    },
+    "timestamp": "2026-11-12T15:24:50.419336Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.046304s",
+      "megaCycles": "33",
+      "pendingTime": "0.007226900s"
+    },
+    "timestamp": "2026-11-12T15:24:50.418187Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.053559s",
+      "megaCycles": "25"
+    },
+    "timestamp": "2026-11-12T15:24:50.417684Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.047874s"
+    },
+    "timestamp": "2026-11-12T15:24:50.416963Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.088635s",
+      "megaCycles": "8",
+      "pendingTime": "0.027743890s"
+    },
+    "timestamp": "2026-11-12T15:24:50.377714Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.062606s",
+      "megaCycles": "11",
+      "pendingTime": "0.027849550s"
+    },
+    "timestamp": "2026-11-12T15:24:50.377161Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.067489s",
+      "megaCycles": "25",
+      "pendingTime": "0.027783450s"
+    },
+    "timestamp": "2026-11-12T15:24:50.376977Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.085243s",
+      "megaCycles": "38",
+      "pendingTime": "0.029320260s"
+    },
+    "timestamp": "2026-11-12T15:24:50.375032Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.068087s",
+      "megaCycles": "9",
+      "pendingTime": "0.003034780s"
+    },
+    "timestamp": "2026-11-12T15:24:50.363813Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.065788s",
+      "megaCycles": "68",
+      "pendingTime": "0.003733870s"
+    },
+    "timestamp": "2026-11-12T15:24:50.361169Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.070211s",
+      "megaCycles": "21",
+      "pendingTime": "0.004243720s"
+    },
+    "timestamp": "2026-11-12T15:24:50.359784Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.049266s",
+      "megaCycles": "59"
+    },
+    "timestamp": "2026-11-12T15:24:50.356948Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.086777s",
+      "megaCycles": "25",
+      "pendingTime": "0.002910250s"
+    },
+    "timestamp": "2026-11-12T15:24:50.349731Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.057541s",
+      "megaCycles": "1",
+      "pendingTime": "0.003033680s"
+    },
+    "timestamp": "2026-11-12T15:24:50.348668Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.058156s",
+      "megaCycles": "3",
+      "pendingTime": "0.000530560s"
+    },
+    "timestamp": "2026-11-12T15:24:50.348452Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.061892s",
+      "megaCycles": "12"
+    },
+    "timestamp": "2026-11-12T15:24:50.346809Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.063029s"
+    },
+    "timestamp": "2026-11-12T15:24:50.344327Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.029639s",
+      "megaCycles": "41",
+      "pendingTime": "0.001896660s"
+    },
+    "timestamp": "2026-11-12T15:24:50.336628Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.074059s",
+      "megaCycles": "6",
+      "pendingTime": "0.004565670s"
+    },
+    "timestamp": "2026-11-12T15:24:50.333246Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.043761s",
+      "megaCycles": "19",
+      "pendingTime": "0.003206500s"
+    },
+    "timestamp": "2026-11-12T15:24:50.325106Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.042227s",
+      "megaCycles": "4",
+      "pendingTime": "0.008973890s"
+    },
+    "timestamp": "2026-11-12T15:24:50.324260Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.032340s",
+      "megaCycles": "19",
+      "pendingTime": "0.001616230s"
+    },
+    "timestamp": "2026-11-12T15:24:50.323211Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.030491s",
+      "megaCycles": "34"
+    },
+    "timestamp": "2026-11-12T15:24:50.320413Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.036241s",
+      "megaCycles": "5",
+      "pendingTime": "0.002217190s"
+    },
+    "timestamp": "2026-11-12T15:24:50.320349Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.035428s",
+      "megaCycles": "17"
+    },
+    "timestamp": "2026-11-12T15:24:50.318076Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.044313s",
+      "megaCycles": "19",
+      "pendingTime": "0.010344530s"
+    },
+    "timestamp": "2026-11-12T15:24:50.295278Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.047419s",
+      "megaCycles": "20",
+      "pendingTime": "0.010447070s"
+    },
+    "timestamp": "2026-11-12T15:24:50.295263Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.049551s",
+      "megaCycles": "7",
+      "pendingTime": "0.014570250s"
+    },
+    "timestamp": "2026-11-12T15:24:50.290849Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.071179s",
+      "megaCycles": "11",
+      "pendingTime": "0.031136690s"
+    },
+    "timestamp": "2026-11-12T15:24:50.274349Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.065782s",
+      "megaCycles": "7",
+      "pendingTime": "0.014014089s"
+    },
+    "timestamp": "2026-11-12T15:24:50.271756Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.058455s",
+      "megaCycles": "18",
+      "pendingTime": "0.015290769s"
+    },
+    "timestamp": "2026-11-12T15:24:50.269799Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.056780s",
+      "megaCycles": "73",
+      "pendingTime": "0.013460199s"
+    },
+    "timestamp": "2026-11-12T15:24:50.267953Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.070279s",
+      "megaCycles": "33"
+    },
+    "timestamp": "2026-11-12T15:24:50.265956Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.041380s",
+      "megaCycles": "16"
+    },
+    "timestamp": "2026-11-12T15:24:50.265925Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.046626s",
+      "megaCycles": "16"
+    },
+    "timestamp": "2026-11-12T15:24:50.260676Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.030427s",
+      "megaCycles": "18",
+      "pendingTime": "0.002313849s"
+    },
+    "timestamp": "2026-11-12T15:24:50.256171Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.062260s",
+      "megaCycles": "16",
+      "pendingTime": "0.011209171s"
+    },
+    "timestamp": "2026-11-12T15:24:50.245065Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.064811s",
+      "megaCycles": "8",
+      "pendingTime": "0.011393040s"
+    },
+    "timestamp": "2026-11-12T15:24:50.244092Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.066628s",
+      "megaCycles": "2",
+      "pendingTime": "0.010165251s"
+    },
+    "timestamp": "2026-11-12T15:24:50.241117Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.049817s",
+      "megaCycles": "4",
+      "pendingTime": "0.010079269s"
+    },
+    "timestamp": "2026-11-12T15:24:50.237505Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.030532s",
+      "megaCycles": "9",
+      "pendingTime": "0.002423499s"
+    },
+    "timestamp": "2026-11-12T15:24:50.231Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.043786s",
+      "megaCycles": "17",
+      "pendingTime": "0.011072110s"
+    },
+    "timestamp": "2026-11-12T15:24:50.220074Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.045985s",
+      "megaCycles": "13",
+      "pendingTime": "0.011896210s"
+    },
+    "timestamp": "2026-11-12T15:24:50.219799Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.039166s",
+      "megaCycles": "2",
+      "pendingTime": "0.009319750s"
+    },
+    "timestamp": "2026-11-12T15:24:50.219032Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.042974s",
+      "megaCycles": "18",
+      "pendingTime": "0.002946120s"
+    },
+    "timestamp": "2026-11-12T15:24:50.217568Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.067519s",
+      "megaCycles": "52"
+    },
+    "timestamp": "2026-11-12T15:24:50.216020Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.035245s",
+      "megaCycles": "52"
+    },
+    "timestamp": "2026-11-12T15:24:50.214308Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.058916s",
+      "megaCycles": "21",
+      "pendingTime": "0.006967950s"
+    },
+    "timestamp": "2026-11-12T15:24:50.198637Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.131818s",
+      "megaCycles": "2",
+      "pendingTime": "0.028444890s"
+    },
+    "timestamp": "2026-11-12T15:24:50.175924Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.083353s",
+      "megaCycles": "16",
+      "pendingTime": "0.035834420s"
+    },
+    "timestamp": "2026-11-12T15:24:50.169508Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.064057s",
+      "megaCycles": "26",
+      "pendingTime": "0.034629100s"
+    },
+    "timestamp": "2026-11-12T15:24:50.168996Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.065611s",
+      "megaCycles": "7",
+      "pendingTime": "0.020476090s"
+    },
+    "timestamp": "2026-11-12T15:24:50.168551Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.041861s",
+      "megaCycles": "4",
+      "pendingTime": "0.002052950s"
+    },
+    "timestamp": "2026-11-12T15:24:50.165096Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.065059s",
+      "megaCycles": "22"
+    },
+    "timestamp": "2026-11-12T15:24:50.164883Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.073645s",
+      "megaCycles": "9"
+    },
+    "timestamp": "2026-11-12T15:24:50.161636Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.046918s",
+      "megaCycles": "28"
+    },
+    "timestamp": "2026-11-12T15:24:50.158122Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.034352s",
+      "megaCycles": "43"
+    },
+    "timestamp": "2026-11-12T15:24:50.156285Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.056008s",
+      "pendingTime": "0.001606100s"
+    },
+    "timestamp": "2026-11-12T15:24:50.152152Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.059045s",
+      "megaCycles": "10",
+      "pendingTime": "0.004546100s"
+    },
+    "timestamp": "2026-11-12T15:24:50.149044Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.087161s",
+      "megaCycles": "60",
+      "pendingTime": "0.010316490s"
+    },
+    "timestamp": "2026-11-12T15:24:50.135270Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.073712s",
+      "megaCycles": "20",
+      "pendingTime": "0.009437210s"
+    },
+    "timestamp": "2026-11-12T15:24:50.132955Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.047607s",
+      "megaCycles": "37",
+      "pendingTime": "0.021619540s"
+    },
+    "timestamp": "2026-11-12T15:24:50.121031Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.036954s",
+      "megaCycles": "8",
+      "pendingTime": "0.006697470s"
+    },
+    "timestamp": "2026-11-12T15:24:50.120056Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.088332s",
+      "pendingTime": "0.019854270s"
+    },
+    "timestamp": "2026-11-12T15:24:50.119846Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.037914s",
+      "megaCycles": "11",
+      "pendingTime": "0.005578130s"
+    },
+    "timestamp": "2026-11-12T15:24:50.119649Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.025507s",
+      "megaCycles": "6"
+    },
+    "timestamp": "2026-11-12T15:24:50.119139Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.036586s",
+      "megaCycles": "33"
+    },
+    "timestamp": "2026-11-12T15:24:50.118729Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.043609s",
+      "megaCycles": "22"
+    },
+    "timestamp": "2026-11-12T15:24:50.116339Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.085820s",
+      "megaCycles": "7",
+      "pendingTime": "0.030585800s"
+    },
+    "timestamp": "2026-11-12T15:24:50.074798Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.069841s",
+      "megaCycles": "56",
+      "pendingTime": "0.033542460s"
+    },
+    "timestamp": "2026-11-12T15:24:50.071997Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.073191s",
+      "megaCycles": "11",
+      "pendingTime": "0.033897640s"
+    },
+    "timestamp": "2026-11-12T15:24:50.070778Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.089337s",
+      "megaCycles": "5",
+      "pendingTime": "0.037977230s"
+    },
+    "timestamp": "2026-11-12T15:24:50.066263Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.062666s",
+      "megaCycles": "52",
+      "pendingTime": "0.000194470s"
+    },
+    "timestamp": "2026-11-12T15:24:50.064068Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.064508s",
+      "megaCycles": "9"
+    },
+    "timestamp": "2026-11-12T15:24:50.063696Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.085175s",
+      "megaCycles": "15"
+    },
+    "timestamp": "2026-11-12T15:24:50.062222Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.056913s",
+      "megaCycles": "11",
+      "pendingTime": "0.006065711s"
+    },
+    "timestamp": "2026-11-12T15:24:50.051148Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.055499s",
+      "megaCycles": "42",
+      "pendingTime": "0.003734300s"
+    },
+    "timestamp": "2026-11-12T15:24:50.050874Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.057401s",
+      "megaCycles": "4",
+      "pendingTime": "0.003354300s"
+    },
+    "timestamp": "2026-11-12T15:24:50.049576Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.066127s",
+      "megaCycles": "10",
+      "pendingTime": "0.007172280s"
+    },
+    "timestamp": "2026-11-12T15:24:50.044224Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.064316s",
+      "megaCycles": "4"
+    },
+    "timestamp": "2026-11-12T15:24:50.042667Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.067066s",
+      "megaCycles": "42"
+    },
+    "timestamp": "2026-11-12T15:24:50.039291Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.083357s",
+      "megaCycles": "9",
+      "pendingTime": "0.013799491s"
+    },
+    "timestamp": "2026-11-12T15:24:50.025796Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.044364s",
+      "megaCycles": "6",
+      "pendingTime": "0.013860780s"
+    },
+    "timestamp": "2026-11-12T15:24:50.021176Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.045171s",
+      "megaCycles": "17",
+      "pendingTime": "0.011605251s"
+    },
+    "timestamp": "2026-11-12T15:24:50.018514Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.045174s",
+      "megaCycles": "17",
+      "pendingTime": "0.014293971s"
+    },
+    "timestamp": "2026-11-12T15:24:50.018509Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.040368s",
+      "megaCycles": "24"
+    },
+    "timestamp": "2026-11-12T15:24:50.018392Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.037465s",
+      "megaCycles": "14"
+    },
+    "timestamp": "2026-11-12T15:24:50.017612Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.039492s",
+      "megaCycles": "7"
+    },
+    "timestamp": "2026-11-12T15:24:50.016618Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.038785s",
+      "megaCycles": "15",
+      "pendingTime": "0.004377189s"
+    },
+    "timestamp": "2026-11-12T15:24:50.002708Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.039981s",
+      "megaCycles": "19",
+      "pendingTime": "0.011485528s"
+    },
+    "timestamp": "2026-11-12T15:24:49.994471Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.052387s",
+      "pendingTime": "0.015222698s"
+    },
+    "timestamp": "2026-11-12T15:24:49.989135Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.050096s",
+      "megaCycles": "10",
+      "pendingTime": "0.017331257s"
+    },
+    "timestamp": "2026-11-12T15:24:49.986579Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.048719s",
+      "megaCycles": "64",
+      "pendingTime": "0.011154139s"
+    },
+    "timestamp": "2026-11-12T15:24:49.982960Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.038355s",
+      "megaCycles": "16",
+      "pendingTime": "0.002382729s"
+    },
+    "timestamp": "2026-11-12T15:24:49.979746Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.034380s",
+      "megaCycles": "19",
+      "pendingTime": "0.002820590s"
+    },
+    "timestamp": "2026-11-12T15:24:49.976525Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.033252s",
+      "megaCycles": "8",
+      "pendingTime": "0.001713880s"
+    },
+    "timestamp": "2026-11-12T15:24:49.974388Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.067174s",
+      "megaCycles": "15"
+    },
+    "timestamp": "2026-11-12T15:24:49.974209Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.046453s",
+      "megaCycles": "21",
+      "pendingTime": "0.000389780s"
+    },
+    "timestamp": "2026-11-12T15:24:49.967622Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.043516s",
+      "megaCycles": "15",
+      "pendingTime": "0.005253059s"
+    },
+    "timestamp": "2026-11-12T15:24:49.962437Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.049104s",
+      "megaCycles": "8",
+      "pendingTime": "0.006571789s"
+    },
+    "timestamp": "2026-11-12T15:24:49.960137Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.049312s",
+      "megaCycles": "15",
+      "pendingTime": "0.007385628s"
+    },
+    "timestamp": "2026-11-12T15:24:49.956616Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.040132s",
+      "megaCycles": "33"
+    },
+    "timestamp": "2026-11-12T15:24:49.955599Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.030448s",
+      "megaCycles": "17"
+    },
+    "timestamp": "2026-11-12T15:24:49.953402Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.035699s",
+      "megaCycles": "29"
+    },
+    "timestamp": "2026-11-12T15:24:49.945390Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.026637s",
+      "megaCycles": "13"
+    },
+    "timestamp": "2026-11-12T15:24:49.944847Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.029377s",
+      "megaCycles": "9"
+    },
+    "timestamp": "2026-11-12T15:24:49.939966Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.045525s",
+      "megaCycles": "26"
+    },
+    "timestamp": "2026-11-12T15:24:49.932162Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.046478s",
+      "megaCycles": "60"
+    },
+    "timestamp": "2026-11-12T15:24:49.919297Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.028567s",
+      "megaCycles": "6"
+    },
+    "timestamp": "2026-11-12T15:24:49.915824Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.054906s",
+      "megaCycles": "6"
+    },
+    "timestamp": "2026-11-12T15:24:49.915199Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.030364s",
+      "megaCycles": "20"
+    },
+    "timestamp": "2026-11-12T15:24:49.913203Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.074783s",
+      "megaCycles": "20"
+    },
+    "timestamp": "2026-11-12T15:24:49.893358Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.042562s",
+      "megaCycles": "5"
+    },
+    "timestamp": "2026-11-12T15:24:49.892893Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.042848s",
+      "megaCycles": "16"
+    },
+    "timestamp": "2026-11-12T15:24:49.891419Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.048218s",
+      "megaCycles": "22"
+    },
+    "timestamp": "2026-11-12T15:24:49.882246Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.043791s",
+      "megaCycles": "51"
+    },
+    "timestamp": "2026-11-12T15:24:49.880516Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.035128s",
+      "megaCycles": "13"
+    },
+    "timestamp": "2026-11-12T15:24:49.873084Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.034212s",
+      "megaCycles": "12"
+    },
+    "timestamp": "2026-11-12T15:24:49.872175Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.042519s",
+      "megaCycles": "8"
+    },
+    "timestamp": "2026-11-12T15:24:49.870123Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.186636s",
+      "megaCycles": "47"
+    },
+    "timestamp": "2026-11-12T15:24:49.866454Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.046422s",
+      "megaCycles": "54"
+    },
+    "timestamp": "2026-11-12T15:24:49.859088Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.032720s",
+      "megaCycles": "9"
+    },
+    "timestamp": "2026-11-12T15:24:49.851332Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.025399s",
+      "megaCycles": "2"
+    },
+    "timestamp": "2026-11-12T15:24:49.847919Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.036296s",
+      "megaCycles": "37"
+    },
+    "timestamp": "2026-11-12T15:24:49.846388Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.031620s",
+      "megaCycles": "13"
+    },
+    "timestamp": "2026-11-12T15:24:49.835678Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.033431s",
+      "megaCycles": "27"
+    },
+    "timestamp": "2026-11-12T15:24:49.828711Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.045547s",
+      "megaCycles": "27"
+    },
+    "timestamp": "2026-11-12T15:24:49.827613Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.031992s",
+      "megaCycles": "17"
+    },
+    "timestamp": "2026-11-12T15:24:49.826415Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.064049s",
+      "megaCycles": "9"
+    },
+    "timestamp": "2026-11-12T15:24:49.820003Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.029771s",
+      "megaCycles": "9"
+    },
+    "timestamp": "2026-11-12T15:24:49.813106Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.050185s",
+      "megaCycles": "6"
+    },
+    "timestamp": "2026-11-12T15:24:49.812866Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.037257s",
+      "megaCycles": "39"
+    },
+    "timestamp": "2026-11-12T15:24:49.802175Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.050666s",
+      "megaCycles": "35"
+    },
+    "timestamp": "2026-11-12T15:24:49.801371Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.040621s",
+      "megaCycles": "21"
+    },
+    "timestamp": "2026-11-12T15:24:49.800540Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.046327s",
+      "megaCycles": "23"
+    },
+    "timestamp": "2026-11-12T15:24:49.782532Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.042998s",
+      "megaCycles": "25"
+    },
+    "timestamp": "2026-11-12T15:24:49.778118Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.043834s"
+    },
+    "timestamp": "2026-11-12T15:24:49.777819Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.037888s",
+      "megaCycles": "19"
+    },
+    "timestamp": "2026-11-12T15:24:49.773787Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.046251s",
+      "megaCycles": "33"
+    },
+    "timestamp": "2026-11-12T15:24:49.772152Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.028650s",
+      "megaCycles": "6"
+    },
+    "timestamp": "2026-11-12T15:24:49.767563Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.040664s",
+      "megaCycles": "16"
+    },
+    "timestamp": "2026-11-12T15:24:49.765595Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.040724s",
+      "megaCycles": "24"
+    },
+    "timestamp": "2026-11-12T15:24:49.763902Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.032473s",
+      "megaCycles": "20"
+    },
+    "timestamp": "2026-11-12T15:24:49.760677Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.044127s",
+      "megaCycles": "64"
+    },
+    "timestamp": "2026-11-12T15:24:49.744928Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.040278s",
+      "megaCycles": "27"
+    },
+    "timestamp": "2026-11-12T15:24:49.736225Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.035733s",
+      "megaCycles": "32"
+    },
+    "timestamp": "2026-11-12T15:24:49.734461Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.037745s",
+      "megaCycles": "4"
+    },
+    "timestamp": "2026-11-12T15:24:49.733441Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.035196s",
+      "megaCycles": "6"
+    },
+    "timestamp": "2026-11-12T15:24:49.723702Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.037559s",
+      "megaCycles": "63"
+    },
+    "timestamp": "2026-11-12T15:24:49.714995Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.041588s",
+      "megaCycles": "42"
+    },
+    "timestamp": "2026-11-12T15:24:49.696179Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.042100s"
+    },
+    "timestamp": "2026-11-12T15:24:49.683267Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.044413s",
+      "megaCycles": "17"
+    },
+    "timestamp": "2026-11-12T15:24:49.680747Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.045541s",
+      "megaCycles": "17"
+    },
+    "timestamp": "2026-11-12T15:24:49.679626Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.083755s",
+      "megaCycles": "3"
+    },
+    "timestamp": "2026-11-12T15:24:49.673526Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.044977s",
+      "megaCycles": "35"
+    },
+    "timestamp": "2026-11-12T15:24:49.662292Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.031301s",
+      "megaCycles": "44"
+    },
+    "timestamp": "2026-11-12T15:24:49.657638Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.061863s",
+      "megaCycles": "16"
+    },
+    "timestamp": "2026-11-12T15:24:49.655012Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.029856s",
+      "megaCycles": "13"
+    },
+    "timestamp": "2026-11-12T15:24:49.647372Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.120197s"
+    },
+    "timestamp": "2026-11-12T15:24:49.645007Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.031025s",
+      "megaCycles": "5"
+    },
+    "timestamp": "2026-11-12T15:24:49.642648Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.123885s",
+      "megaCycles": "28"
+    },
+    "timestamp": "2026-11-12T15:24:49.641185Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.033924s",
+      "megaCycles": "27"
+    },
+    "timestamp": "2026-11-12T15:24:49.638403Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.027872s",
+      "megaCycles": "34"
+    },
+    "timestamp": "2026-11-12T15:24:49.637975Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.036784s",
+      "megaCycles": "23"
+    },
+    "timestamp": "2026-11-12T15:24:49.618742Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.033619s",
+      "megaCycles": "21"
+    },
+    "timestamp": "2026-11-12T15:24:49.617606Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.031410s",
+      "megaCycles": "32"
+    },
+    "timestamp": "2026-11-12T15:24:49.616599Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.056258s",
+      "megaCycles": "16"
+    },
+    "timestamp": "2026-11-12T15:24:49.585357Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.053301s",
+      "megaCycles": "4"
+    },
+    "timestamp": "2026-11-12T15:24:49.583939Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.174925s",
+      "megaCycles": "18"
+    },
+    "timestamp": "2026-11-12T15:24:49.581495Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.059944s",
+      "megaCycles": "13"
+    },
+    "timestamp": "2026-11-12T15:24:49.573412Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.059882s",
+      "megaCycles": "76"
+    },
+    "timestamp": "2026-11-12T15:24:49.569874Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.062060s",
+      "megaCycles": "11"
+    },
+    "timestamp": "2026-11-12T15:24:49.569107Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.043181s",
+      "megaCycles": "20"
+    },
+    "timestamp": "2026-11-12T15:24:49.567710Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.046971s",
+      "megaCycles": "25"
+    },
+    "timestamp": "2026-11-12T15:24:49.561696Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.050307s",
+      "megaCycles": "25"
+    },
+    "timestamp": "2026-11-12T15:24:49.559695Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.081584s",
+      "megaCycles": "13"
+    },
+    "timestamp": "2026-11-12T15:24:49.553821Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.031877s",
+      "megaCycles": "17"
+    },
+    "timestamp": "2026-11-12T15:24:49.545287Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.040284s",
+      "megaCycles": "7"
+    },
+    "timestamp": "2026-11-12T15:24:49.538393Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.031315s",
+      "megaCycles": "17"
+    },
+    "timestamp": "2026-11-12T15:24:49.534132Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.029855s",
+      "megaCycles": "8"
+    },
+    "timestamp": "2026-11-12T15:24:49.530676Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.051551s",
+      "megaCycles": "40"
+    },
+    "timestamp": "2026-11-12T15:24:49.523679Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.041562s",
+      "megaCycles": "14"
+    },
+    "timestamp": "2026-11-12T15:24:49.520832Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.035384s",
+      "megaCycles": "15"
+    },
+    "timestamp": "2026-11-12T15:24:49.519611Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.040266s",
+      "megaCycles": "23"
+    },
+    "timestamp": "2026-11-12T15:24:49.519511Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.032852s",
+      "megaCycles": "24"
+    },
+    "timestamp": "2026-11-12T15:24:49.518636Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.028120s",
+      "megaCycles": "34"
+    },
+    "timestamp": "2026-11-12T15:24:49.517383Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.043700s",
+      "megaCycles": "37"
+    },
+    "timestamp": "2026-11-12T15:24:49.494507Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.040053s",
+      "megaCycles": "18"
+    },
+    "timestamp": "2026-11-12T15:24:49.492284Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.034530s",
+      "megaCycles": "8"
+    },
+    "timestamp": "2026-11-12T15:24:49.475358Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.050173s",
+      "megaCycles": "44"
+    },
+    "timestamp": "2026-11-12T15:24:49.473408Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.040171s",
+      "megaCycles": "25"
+    },
+    "timestamp": "2026-11-12T15:24:49.466611Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.046451s",
+      "megaCycles": "10"
+    },
+    "timestamp": "2026-11-12T15:24:49.466255Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.040747s",
+      "megaCycles": "25"
+    },
+    "timestamp": "2026-11-12T15:24:49.466035Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.062040s",
+      "megaCycles": "26"
+    },
+    "timestamp": "2026-11-12T15:24:49.465802Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.042223s",
+      "megaCycles": "1"
+    },
+    "timestamp": "2026-11-12T15:24:49.464615Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.030170s",
+      "megaCycles": "100"
+    },
+    "timestamp": "2026-11-12T15:24:49.455093Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.034177s",
+      "megaCycles": "15"
+    },
+    "timestamp": "2026-11-12T15:24:49.453434Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.069819s",
+      "megaCycles": "5"
+    },
+    "timestamp": "2026-11-12T15:24:49.437976Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.035246s",
+      "megaCycles": "4"
+    },
+    "timestamp": "2026-11-12T15:24:49.430990Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.028682s",
+      "megaCycles": "12"
+    },
+    "timestamp": "2026-11-12T15:24:49.429436Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.032173s",
+      "megaCycles": "16"
+    },
+    "timestamp": "2026-11-12T15:24:49.416769Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.038936s",
+      "megaCycles": "2"
+    },
+    "timestamp": "2026-11-12T15:24:49.416015Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.040030s",
+      "megaCycles": "2"
+    },
+    "timestamp": "2026-11-12T15:24:49.414884Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.056172s",
+      "megaCycles": "30"
+    },
+    "timestamp": "2026-11-12T15:24:49.409615Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.041485s",
+      "megaCycles": "89"
+    },
+    "timestamp": "2026-11-12T15:24:49.403555Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.028029s",
+      "megaCycles": "12"
+    },
+    "timestamp": "2026-11-12T15:24:49.398367Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.070570s",
+      "megaCycles": "2"
+    },
+    "timestamp": "2026-11-12T15:24:49.384375Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.038517s",
+      "megaCycles": "61"
+    },
+    "timestamp": "2026-11-12T15:24:49.382954Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.041183s",
+      "megaCycles": "15"
+    },
+    "timestamp": "2026-11-12T15:24:49.382784Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.028346s",
+      "megaCycles": "28"
+    },
+    "timestamp": "2026-11-12T15:24:49.374336Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.037563s"
+    },
+    "timestamp": "2026-11-12T15:24:49.369853Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.027757s",
+      "megaCycles": "10"
+    },
+    "timestamp": "2026-11-12T15:24:49.368453Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.043905s",
+      "megaCycles": "15"
+    },
+    "timestamp": "2026-11-12T15:24:49.361757Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.046715s",
+      "megaCycles": "13"
+    },
+    "timestamp": "2026-11-12T15:24:49.360612Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.028736s",
+      "megaCycles": "23"
+    },
+    "timestamp": "2026-11-12T15:24:49.338848Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.052146s",
+      "megaCycles": "49"
+    },
+    "timestamp": "2026-11-12T15:24:49.338134Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.043633s",
+      "megaCycles": "15"
+    },
+    "timestamp": "2026-11-12T15:24:49.333660Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.035472s",
+      "megaCycles": "4"
+    },
+    "timestamp": "2026-11-12T15:24:49.326535Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.052048s",
+      "megaCycles": "17"
+    },
+    "timestamp": "2026-11-12T15:24:49.322971Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.033675s",
+      "megaCycles": "66"
+    },
+    "timestamp": "2026-11-12T15:24:49.317759Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.058494s",
+      "megaCycles": "25"
+    },
+    "timestamp": "2026-11-12T15:24:49.314699Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.039825s",
+      "megaCycles": "2"
+    },
+    "timestamp": "2026-11-12T15:24:49.312302Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.036817s",
+      "megaCycles": "37"
+    },
+    "timestamp": "2026-11-12T15:24:49.293680Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.070836s",
+      "megaCycles": "16"
+    },
+    "timestamp": "2026-11-12T15:24:49.290219Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.040277s",
+      "megaCycles": "21"
+    },
+    "timestamp": "2026-11-12T15:24:49.285974Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.045926s",
+      "megaCycles": "1"
+    },
+    "timestamp": "2026-11-12T15:24:49.285056Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.039118s",
+      "megaCycles": "19"
+    },
+    "timestamp": "2026-11-12T15:24:49.279917Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.033733s",
+      "megaCycles": "14"
+    },
+    "timestamp": "2026-11-12T15:24:49.277008Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.047243s",
+      "megaCycles": "24"
+    },
+    "timestamp": "2026-11-12T15:24:49.268525Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.038322s",
+      "megaCycles": "56"
+    },
+    "timestamp": "2026-11-12T15:24:49.266913Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.040821s",
+      "megaCycles": "13"
+    },
+    "timestamp": "2026-11-12T15:24:49.266091Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.027793s",
+      "megaCycles": "14"
+    },
+    "timestamp": "2026-11-12T15:24:49.258857Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.027668s",
+      "megaCycles": "25"
+    },
+    "timestamp": "2026-11-12T15:24:49.241906Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.040329s",
+      "megaCycles": "31"
+    },
+    "timestamp": "2026-11-12T15:24:49.241898Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.040653s",
+      "megaCycles": "22"
+    },
+    "timestamp": "2026-11-12T15:24:49.236693Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.037726s",
+      "megaCycles": "22"
+    },
+    "timestamp": "2026-11-12T15:24:49.234265Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.029499s",
+      "megaCycles": "1"
+    },
+    "timestamp": "2026-11-12T15:24:49.230119Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.051857s",
+      "megaCycles": "4"
+    },
+    "timestamp": "2026-11-12T15:24:49.226163Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.027728s",
+      "megaCycles": "63"
+    },
+    "timestamp": "2026-11-12T15:24:49.223438Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.062776s",
+      "megaCycles": "33"
+    },
+    "timestamp": "2026-11-12T15:24:49.195698Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.035636s",
+      "megaCycles": "17"
+    },
+    "timestamp": "2026-11-12T15:24:49.194836Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.039585s",
+      "megaCycles": "22"
+    },
+    "timestamp": "2026-11-12T15:24:49.194571Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.049669s",
+      "megaCycles": "3"
+    },
+    "timestamp": "2026-11-12T15:24:49.184943Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.039027s",
+      "megaCycles": "8"
+    },
+    "timestamp": "2026-11-12T15:24:49.182954Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.039574s",
+      "megaCycles": "19"
+    },
+    "timestamp": "2026-11-12T15:24:49.178919Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.285514s",
+      "megaCycles": "2"
+    },
+    "timestamp": "2026-11-12T15:24:49.169400Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.092055s",
+      "megaCycles": "4"
+    },
+    "timestamp": "2026-11-12T15:24:49.167130Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.063045s",
+      "megaCycles": "12"
+    },
+    "timestamp": "2026-11-12T15:24:49.164138Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.030093s",
+      "megaCycles": "7"
+    },
+    "timestamp": "2026-11-12T15:24:49.157722Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.058125s",
+      "megaCycles": "76"
+    },
+    "timestamp": "2026-11-12T15:24:49.157059Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.034493s",
+      "megaCycles": "40"
+    },
+    "timestamp": "2026-11-12T15:24:49.151940Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.031419s",
+      "megaCycles": "4"
+    },
+    "timestamp": "2026-11-12T15:24:49.146660Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.036545s",
+      "megaCycles": "35"
+    },
+    "timestamp": "2026-11-12T15:24:49.140106Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.038553s",
+      "megaCycles": "55"
+    },
+    "timestamp": "2026-11-12T15:24:49.133212Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.032859s",
+      "megaCycles": "13"
+    },
+    "timestamp": "2026-11-12T15:24:49.126402Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.034670s",
+      "megaCycles": "35"
+    },
+    "timestamp": "2026-11-12T15:24:49.122101Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.033917s",
+      "megaCycles": "10"
+    },
+    "timestamp": "2026-11-12T15:24:49.116208Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.034504s",
+      "megaCycles": "10"
+    },
+    "timestamp": "2026-11-12T15:24:49.115621Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.029304s",
+      "megaCycles": "25"
+    },
+    "timestamp": "2026-11-12T15:24:49.114341Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.038238s",
+      "megaCycles": "22"
+    },
+    "timestamp": "2026-11-12T15:24:49.099258Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.036509s",
+      "megaCycles": "34"
+    },
+    "timestamp": "2026-11-12T15:24:49.090921Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.035432s",
+      "megaCycles": "19"
+    },
+    "timestamp": "2026-11-12T15:24:49.082740Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.033239s",
+      "megaCycles": "11"
+    },
+    "timestamp": "2026-11-12T15:24:49.080890Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.029389s",
+      "megaCycles": "11"
+    },
+    "timestamp": "2026-11-12T15:24:49.080845Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.039351s",
+      "megaCycles": "27"
+    },
+    "timestamp": "2026-11-12T15:24:49.067081Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.041106s",
+      "megaCycles": "27"
+    },
+    "timestamp": "2026-11-12T15:24:49.065326Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.032664s",
+      "megaCycles": "27"
+    },
+    "timestamp": "2026-11-12T15:24:49.058832Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.028251s",
+      "megaCycles": "23"
+    },
+    "timestamp": "2026-11-12T15:24:49.055231Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.030102s",
+      "megaCycles": "9"
+    },
+    "timestamp": "2026-11-12T15:24:49.045539Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.033796s",
+      "megaCycles": "7"
+    },
+    "timestamp": "2026-11-12T15:24:49.038725Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.035530s",
+      "megaCycles": "43"
+    },
+    "timestamp": "2026-11-12T15:24:49.035757Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.028363s",
+      "megaCycles": "22"
+    },
+    "timestamp": "2026-11-12T15:24:49.029801Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.140510s",
+      "megaCycles": "3"
+    },
+    "timestamp": "2026-11-12T15:24:49.019323Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.028914s",
+      "megaCycles": "31"
+    },
+    "timestamp": "2026-11-12T15:24:49.018766Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.034049s",
+      "megaCycles": "16"
+    },
+    "timestamp": "2026-11-12T15:24:49.016071Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.118513s",
+      "megaCycles": "34"
+    },
+    "timestamp": "2026-11-12T15:24:49.015285Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.042183s",
+      "megaCycles": "23"
+    },
+    "timestamp": "2026-11-12T15:24:48.995467Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.065895s",
+      "megaCycles": "17"
+    },
+    "timestamp": "2026-11-12T15:24:48.995108Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.196823s",
+      "megaCycles": "3"
+    },
+    "timestamp": "2026-11-12T15:24:48.989974Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.052864s",
+      "megaCycles": "14"
+    },
+    "timestamp": "2026-11-12T15:24:48.977335Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.051255s",
+      "megaCycles": "23"
+    },
+    "timestamp": "2026-11-12T15:24:48.975329Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.046625s",
+      "megaCycles": "44"
+    },
+    "timestamp": "2026-11-12T15:24:48.974809Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.044366s",
+      "megaCycles": "1"
+    },
+    "timestamp": "2026-11-12T15:24:48.965258Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.048265s",
+      "megaCycles": "30"
+    },
+    "timestamp": "2026-11-12T15:24:48.958431Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.049304s",
+      "megaCycles": "30"
+    },
+    "timestamp": "2026-11-12T15:24:48.957392Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.031948s",
+      "megaCycles": "49"
+    },
+    "timestamp": "2026-11-12T15:24:48.950087Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.042858s",
+      "megaCycles": "1"
+    },
+    "timestamp": "2026-11-12T15:24:48.944135Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.026012s",
+      "megaCycles": "10"
+    },
+    "timestamp": "2026-11-12T15:24:48.942914Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.051304s",
+      "megaCycles": "22"
+    },
+    "timestamp": "2026-11-12T15:24:48.935250Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.032885s",
+      "megaCycles": "1"
+    },
+    "timestamp": "2026-11-12T15:24:48.933884Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.030036s",
+      "megaCycles": "33"
+    },
+    "timestamp": "2026-11-12T15:24:48.918743Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.040837s",
+      "megaCycles": "27"
+    },
+    "timestamp": "2026-11-12T15:24:48.917239Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.049651s",
+      "megaCycles": "47"
+    },
+    "timestamp": "2026-11-12T15:24:48.916831Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.034033s",
+      "megaCycles": "3"
+    },
+    "timestamp": "2026-11-12T15:24:48.916411Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.030149s",
+      "megaCycles": "20"
+    },
+    "timestamp": "2026-11-12T15:24:48.912149Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.054543s",
+      "megaCycles": "41"
+    },
+    "timestamp": "2026-11-12T15:24:48.880983Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.057020s",
+      "megaCycles": "3"
+    },
+    "timestamp": "2026-11-12T15:24:48.869314Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.067973s",
+      "megaCycles": "9"
+    },
+    "timestamp": "2026-11-12T15:24:48.869071Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.059066s",
+      "megaCycles": "70"
+    },
+    "timestamp": "2026-11-12T15:24:48.866839Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.049262s",
+      "megaCycles": "11"
+    },
+    "timestamp": "2026-11-12T15:24:48.859701Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.050808s",
+      "megaCycles": "3"
+    },
+    "timestamp": "2026-11-12T15:24:48.858893Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.051592s",
+      "megaCycles": "11"
+    },
+    "timestamp": "2026-11-12T15:24:48.857371Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.061812s",
+      "megaCycles": "11"
+    },
+    "timestamp": "2026-11-12T15:24:48.844505Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.165488s",
+      "megaCycles": "21"
+    },
+    "timestamp": "2026-11-12T15:24:48.843732Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.033785s",
+      "megaCycles": "52"
+    },
+    "timestamp": "2026-11-12T15:24:48.840165Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.064601s",
+      "megaCycles": "23"
+    },
+    "timestamp": "2026-11-12T15:24:48.840111Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.038374s",
+      "megaCycles": "4"
+    },
+    "timestamp": "2026-11-12T15:24:48.822463Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.039991s",
+      "megaCycles": "36"
+    },
+    "timestamp": "2026-11-12T15:24:48.820221Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.043715s",
+      "megaCycles": "14"
+    },
+    "timestamp": "2026-11-12T15:24:48.818885Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.033268s",
+      "megaCycles": "14"
+    },
+    "timestamp": "2026-11-12T15:24:48.817812Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.036889s",
+      "megaCycles": "5"
+    },
+    "timestamp": "2026-11-12T15:24:48.815279Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.053529s",
+      "megaCycles": "71"
+    },
+    "timestamp": "2026-11-12T15:24:48.795711Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.049215s",
+      "megaCycles": "18"
+    },
+    "timestamp": "2026-11-12T15:24:48.785800Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.051965s",
+      "megaCycles": "71"
+    },
+    "timestamp": "2026-11-12T15:24:48.779555Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.052558s",
+      "megaCycles": "2"
+    },
+    "timestamp": "2026-11-12T15:24:48.779376Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.062319s",
+      "megaCycles": "33"
+    },
+    "timestamp": "2026-11-12T15:24:48.775319Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.040069s",
+      "megaCycles": "2"
+    },
+    "timestamp": "2026-11-12T15:24:48.768167Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.044730s",
+      "megaCycles": "42"
+    },
+    "timestamp": "2026-11-12T15:24:48.763030Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.057317s",
+      "megaCycles": "18"
+    },
+    "timestamp": "2026-11-12T15:24:48.756380Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.032340s",
+      "megaCycles": "44"
+    },
+    "timestamp": "2026-11-12T15:24:48.753792Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.061963s",
+      "megaCycles": "13"
+    },
+    "timestamp": "2026-11-12T15:24:48.747563Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.037748s",
+      "megaCycles": "18"
+    },
+    "timestamp": "2026-11-12T15:24:48.737330Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.077166s",
+      "megaCycles": "6"
+    },
+    "timestamp": "2026-11-12T15:24:48.733258Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.032521s",
+      "megaCycles": "28"
+    },
+    "timestamp": "2026-11-12T15:24:48.728357Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.035069s",
+      "megaCycles": "25"
+    },
+    "timestamp": "2026-11-12T15:24:48.720519Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.052066s",
+      "megaCycles": "11"
+    },
+    "timestamp": "2026-11-12T15:24:48.720305Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.050863s",
+      "megaCycles": "14"
+    },
+    "timestamp": "2026-11-12T15:24:48.719706Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.050041s",
+      "megaCycles": "24"
+    },
+    "timestamp": "2026-11-12T15:24:48.718299Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.027844s",
+      "megaCycles": "21"
+    },
+    "timestamp": "2026-11-12T15:24:48.717068Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.061928s",
+      "megaCycles": "55"
+    },
+    "timestamp": "2026-11-12T15:24:48.678673Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.059909s",
+      "megaCycles": "22"
+    },
+    "timestamp": "2026-11-12T15:24:48.669505Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.039587s",
+      "megaCycles": "8"
+    },
+    "timestamp": "2026-11-12T15:24:48.669166Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.052974s",
+      "megaCycles": "29"
+    },
+    "timestamp": "2026-11-12T15:24:48.669009Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.057938s",
+      "megaCycles": "27"
+    },
+    "timestamp": "2026-11-12T15:24:48.667490Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.080463s",
+      "megaCycles": "3"
+    },
+    "timestamp": "2026-11-12T15:24:48.665635Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.049963s",
+      "megaCycles": "55"
+    },
+    "timestamp": "2026-11-12T15:24:48.657684Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.053047s",
+      "megaCycles": "2"
+    },
+    "timestamp": "2026-11-12T15:24:48.656944Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.052879s",
+      "megaCycles": "6"
+    },
+    "timestamp": "2026-11-12T15:24:48.656728Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.061131s",
+      "megaCycles": "55"
+    },
+    "timestamp": "2026-11-12T15:24:48.646516Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.029401s",
+      "megaCycles": "44"
+    },
+    "timestamp": "2026-11-12T15:24:48.641217Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.030575s",
+      "megaCycles": "7"
+    },
+    "timestamp": "2026-11-12T15:24:48.630647Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.038153s",
+      "megaCycles": "17"
+    },
+    "timestamp": "2026-11-12T15:24:48.619360Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.031729s",
+      "megaCycles": "3"
+    },
+    "timestamp": "2026-11-12T15:24:48.616987Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.044102s",
+      "megaCycles": "21"
+    },
+    "timestamp": "2026-11-12T15:24:48.616056Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.033945s",
+      "megaCycles": "7"
+    },
+    "timestamp": "2026-11-12T15:24:48.615825Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.043561s"
+    },
+    "timestamp": "2026-11-12T15:24:48.613970Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.036262s",
+      "megaCycles": "60"
+    },
+    "timestamp": "2026-11-12T15:24:48.596150Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.044650s",
+      "megaCycles": "20"
+    },
+    "timestamp": "2026-11-12T15:24:48.595709Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.053830s",
+      "megaCycles": "33"
+    },
+    "timestamp": "2026-11-12T15:24:48.594046Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.068518s",
+      "megaCycles": "17"
+    },
+    "timestamp": "2026-11-12T15:24:48.588995Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.045242s",
+      "megaCycles": "66"
+    },
+    "timestamp": "2026-11-12T15:24:48.576602Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.041895s",
+      "megaCycles": "2"
+    },
+    "timestamp": "2026-11-12T15:24:48.566034Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.044261s"
+    },
+    "timestamp": "2026-11-12T15:24:48.561330Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.045884s",
+      "megaCycles": "2"
+    },
+    "timestamp": "2026-11-12T15:24:48.560032Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.033552s",
+      "megaCycles": "37"
+    },
+    "timestamp": "2026-11-12T15:24:48.553184Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.057147s",
+      "megaCycles": "20"
+    },
+    "timestamp": "2026-11-12T15:24:48.550427Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.037259s"
+    },
+    "timestamp": "2026-11-12T15:24:48.549637Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.057941s",
+      "megaCycles": "51"
+    },
+    "timestamp": "2026-11-12T15:24:48.547594Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.036480s",
+      "megaCycles": "34"
+    },
+    "timestamp": "2026-11-12T15:24:48.544764Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.038387s",
+      "megaCycles": "20"
+    },
+    "timestamp": "2026-11-12T15:24:48.520225Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.050916s",
+      "megaCycles": "46"
+    },
+    "timestamp": "2026-11-12T15:24:48.519543Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.032712s",
+      "megaCycles": "21"
+    },
+    "timestamp": "2026-11-12T15:24:48.518481Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.030014s",
+      "megaCycles": "5"
+    },
+    "timestamp": "2026-11-12T15:24:48.516231Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.049491s",
+      "megaCycles": "9"
+    },
+    "timestamp": "2026-11-12T15:24:48.488878Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.063922s",
+      "megaCycles": "14"
+    },
+    "timestamp": "2026-11-12T15:24:48.480005Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.061440s",
+      "megaCycles": "10"
+    },
+    "timestamp": "2026-11-12T15:24:48.478915Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.076494s",
+      "megaCycles": "27"
+    },
+    "timestamp": "2026-11-12T15:24:48.478746Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.058290s",
+      "megaCycles": "99"
+    },
+    "timestamp": "2026-11-12T15:24:48.478345Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.047530s",
+      "megaCycles": "63"
+    },
+    "timestamp": "2026-11-12T15:24:48.460358Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.051580s",
+      "megaCycles": "7"
+    },
+    "timestamp": "2026-11-12T15:24:48.457036Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.055501s",
+      "megaCycles": "7"
+    },
+    "timestamp": "2026-11-12T15:24:48.454691Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.134032s",
+      "megaCycles": "3"
+    },
+    "timestamp": "2026-11-12T15:24:48.453917Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.034075s",
+      "megaCycles": "24"
+    },
+    "timestamp": "2026-11-12T15:24:48.447149Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.067665s",
+      "megaCycles": "2"
+    },
+    "timestamp": "2026-11-12T15:24:48.443186Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.030708s",
+      "megaCycles": "69"
+    },
+    "timestamp": "2026-11-12T15:24:48.438409Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.033361s"
+    },
+    "timestamp": "2026-11-12T15:24:48.437037Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.035064s",
+      "megaCycles": "6"
+    },
+    "timestamp": "2026-11-12T15:24:48.435221Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.028005s",
+      "megaCycles": "33"
+    },
+    "timestamp": "2026-11-12T15:24:48.418800Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.056109s",
+      "megaCycles": "17"
+    },
+    "timestamp": "2026-11-12T15:24:48.417932Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.036333s",
+      "megaCycles": "30"
+    },
+    "timestamp": "2026-11-12T15:24:48.417422Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.037456s",
+      "megaCycles": "16"
+    },
+    "timestamp": "2026-11-12T15:24:48.412641Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.046651s",
+      "megaCycles": "5"
+    },
+    "timestamp": "2026-11-12T15:24:48.400944Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.032481s",
+      "megaCycles": "18"
+    },
+    "timestamp": "2026-11-12T15:24:48.399873Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.029330s",
+      "megaCycles": "94"
+    },
+    "timestamp": "2026-11-12T15:24:48.398965Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.036346s",
+      "megaCycles": "10"
+    },
+    "timestamp": "2026-11-12T15:24:48.398149Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.043133s",
+      "megaCycles": "30"
+    },
+    "timestamp": "2026-11-12T15:24:48.397095Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.033011s",
+      "megaCycles": "4"
+    },
+    "timestamp": "2026-11-12T15:24:48.396243Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.037583s",
+      "megaCycles": "61"
+    },
+    "timestamp": "2026-11-12T15:24:48.367484Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.043289s",
+      "megaCycles": "27"
+    },
+    "timestamp": "2026-11-12T15:24:48.365644Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.044451s",
+      "megaCycles": "2"
+    },
+    "timestamp": "2026-11-12T15:24:48.365286Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.065550s",
+      "megaCycles": "15"
+    },
+    "timestamp": "2026-11-12T15:24:48.322357Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.070401s",
+      "megaCycles": "1"
+    },
+    "timestamp": "2026-11-12T15:24:48.319692Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.070152s",
+      "megaCycles": "4"
+    },
+    "timestamp": "2026-11-12T15:24:48.319547Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.067332s",
+      "megaCycles": "6"
+    },
+    "timestamp": "2026-11-12T15:24:48.319315Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.042393s",
+      "megaCycles": "9"
+    },
+    "timestamp": "2026-11-12T15:24:48.318710Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.069736s",
+      "megaCycles": "70"
+    },
+    "timestamp": "2026-11-12T15:24:48.316395Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.067891s",
+      "megaCycles": "12"
+    },
+    "timestamp": "2026-11-12T15:24:48.290302Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.070726s",
+      "megaCycles": "116"
+    },
+    "timestamp": "2026-11-12T15:24:48.286536Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.110255s",
+      "megaCycles": "9"
+    },
+    "timestamp": "2026-11-12T15:24:48.278808Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.134909s",
+      "megaCycles": "2"
+    },
+    "timestamp": "2026-11-12T15:24:48.274816Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.042302s",
+      "megaCycles": "17"
+    },
+    "timestamp": "2026-11-12T15:24:48.268427Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.040102s",
+      "megaCycles": "25"
+    },
+    "timestamp": "2026-11-12T15:24:48.266972Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.046888s"
+    },
+    "timestamp": "2026-11-12T15:24:48.260826Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.048294s",
+      "megaCycles": "25"
+    },
+    "timestamp": "2026-11-12T15:24:48.258780Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.055472s",
+      "megaCycles": "3"
+    },
+    "timestamp": "2026-11-12T15:24:48.256402Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.032101s",
+      "megaCycles": "14"
+    },
+    "timestamp": "2026-11-12T15:24:48.250373Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.042997s",
+      "megaCycles": "50"
+    },
+    "timestamp": "2026-11-12T15:24:48.236730Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.040407s",
+      "megaCycles": "27"
+    },
+    "timestamp": "2026-11-12T15:24:48.230037Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.044512s",
+      "megaCycles": "24"
+    },
+    "timestamp": "2026-11-12T15:24:48.221834Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.087423s",
+      "megaCycles": "6"
+    },
+    "timestamp": "2026-11-12T15:24:48.220162Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.041598s",
+      "megaCycles": "25"
+    },
+    "timestamp": "2026-11-12T15:24:48.218826Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.035894s",
+      "megaCycles": "10"
+    },
+    "timestamp": "2026-11-12T15:24:48.218746Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.047938s",
+      "megaCycles": "2"
+    },
+    "timestamp": "2026-11-12T15:24:48.212861Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.037076s",
+      "megaCycles": "29"
+    },
+    "timestamp": "2026-11-12T15:24:48.212838Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.058775s",
+      "megaCycles": "43"
+    },
+    "timestamp": "2026-11-12T15:24:48.184828Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.050605s",
+      "megaCycles": "45"
+    },
+    "timestamp": "2026-11-12T15:24:48.178474Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.040193s",
+      "megaCycles": "7"
+    },
+    "timestamp": "2026-11-12T15:24:48.167783Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.053814s",
+      "megaCycles": "39"
+    },
+    "timestamp": "2026-11-12T15:24:48.167423Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.044603s",
+      "megaCycles": "1"
+    },
+    "timestamp": "2026-11-12T15:24:48.166401Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.087222s",
+      "megaCycles": "8"
+    },
+    "timestamp": "2026-11-12T15:24:48.164716Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.054645s",
+      "megaCycles": "12"
+    },
+    "timestamp": "2026-11-12T15:24:48.155557Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.027925s",
+      "megaCycles": "32"
+    },
+    "timestamp": "2026-11-12T15:24:48.150487Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.057019s",
+      "megaCycles": "27"
+    },
+    "timestamp": "2026-11-12T15:24:48.150043Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.058085s",
+      "megaCycles": "41"
+    },
+    "timestamp": "2026-11-12T15:24:48.146733Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.038247s",
+      "megaCycles": "55"
+    },
+    "timestamp": "2026-11-12T15:24:48.132496Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.040936s",
+      "megaCycles": "5"
+    },
+    "timestamp": "2026-11-12T15:24:48.118913Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.039681s",
+      "megaCycles": "17"
+    },
+    "timestamp": "2026-11-12T15:24:48.118618Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.037277s",
+      "megaCycles": "38"
+    },
+    "timestamp": "2026-11-12T15:24:48.118047Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.030908s",
+      "megaCycles": "9"
+    },
+    "timestamp": "2026-11-12T15:24:48.117653Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.044220s",
+      "megaCycles": "5"
+    },
+    "timestamp": "2026-11-12T15:24:48.115629Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.028396s",
+      "megaCycles": "52"
+    },
+    "timestamp": "2026-11-12T15:24:48.111474Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.060020s",
+      "megaCycles": "5"
+    },
+    "timestamp": "2026-11-12T15:24:48.084482Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.061076s",
+      "megaCycles": "13"
+    },
+    "timestamp": "2026-11-12T15:24:48.081823Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.138450s",
+      "megaCycles": "2"
+    },
+    "timestamp": "2026-11-12T15:24:48.072175Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.055446s",
+      "megaCycles": "104"
+    },
+    "timestamp": "2026-11-12T15:24:48.070744Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.048814s",
+      "megaCycles": "4"
+    },
+    "timestamp": "2026-11-12T15:24:48.058224Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.055922s",
+      "megaCycles": "23"
+    },
+    "timestamp": "2026-11-12T15:24:48.050869Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.058512s",
+      "megaCycles": "5"
+    },
+    "timestamp": "2026-11-12T15:24:48.049340Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.057043s",
+      "megaCycles": "10"
+    },
+    "timestamp": "2026-11-12T15:24:48.047756Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.060585s",
+      "megaCycles": "10"
+    },
+    "timestamp": "2026-11-12T15:24:48.044214Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.036343s",
+      "megaCycles": "31"
+    },
+    "timestamp": "2026-11-12T15:24:48.041606Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.073244s",
+      "megaCycles": "5"
+    },
+    "timestamp": "2026-11-12T15:24:48.034573Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.041555s",
+      "megaCycles": "14"
+    },
+    "timestamp": "2026-11-12T15:24:48.032600Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.033455s",
+      "megaCycles": "12"
+    },
+    "timestamp": "2026-11-12T15:24:48.032542Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.029505s",
+      "megaCycles": "39"
+    },
+    "timestamp": "2026-11-12T15:24:48.020738Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.044551s",
+      "megaCycles": "74"
+    },
+    "timestamp": "2026-11-12T15:24:48.018934Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.046837s",
+      "megaCycles": "31"
+    },
+    "timestamp": "2026-11-12T15:24:47.992024Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.042505s",
+      "megaCycles": "28"
+    },
+    "timestamp": "2026-11-12T15:24:47.991469Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.053543s",
+      "megaCycles": "13"
+    },
+    "timestamp": "2026-11-12T15:24:47.987800Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.058593s",
+      "megaCycles": "1"
+    },
+    "timestamp": "2026-11-12T15:24:47.983277Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.052966s",
+      "megaCycles": "1"
+    },
+    "timestamp": "2026-11-12T15:24:47.981672Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.043289s",
+      "megaCycles": "1"
+    },
+    "timestamp": "2026-11-12T15:24:47.980447Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.050937s",
+      "megaCycles": "11"
+    },
+    "timestamp": "2026-11-12T15:24:47.975022Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.049324s",
+      "megaCycles": "63"
+    },
+    "timestamp": "2026-11-12T15:24:47.974308Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.045936s",
+      "megaCycles": "42"
+    },
+    "timestamp": "2026-11-12T15:24:47.964774Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.046755s",
+      "megaCycles": "42"
+    },
+    "timestamp": "2026-11-12T15:24:47.963955Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.030333s",
+      "megaCycles": "17"
+    },
+    "timestamp": "2026-11-12T15:24:47.953450Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.033527s",
+      "megaCycles": "3"
+    },
+    "timestamp": "2026-11-12T15:24:47.942652Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.033228s",
+      "megaCycles": "9"
+    },
+    "timestamp": "2026-11-12T15:24:47.941588Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.039134s",
+      "megaCycles": "26"
+    },
+    "timestamp": "2026-11-12T15:24:47.941341Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.044325s",
+      "megaCycles": "6"
+    },
+    "timestamp": "2026-11-12T15:24:47.940434Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.037073s",
+      "megaCycles": "22"
+    },
+    "timestamp": "2026-11-12T15:24:47.935695Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.042961s",
+      "megaCycles": "10"
+    },
+    "timestamp": "2026-11-12T15:24:47.925598Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.032466s",
+      "megaCycles": "1"
+    },
+    "timestamp": "2026-11-12T15:24:47.924688Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.042696s",
+      "megaCycles": "29"
+    },
+    "timestamp": "2026-11-12T15:24:47.923771Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.028819s",
+      "megaCycles": "43"
+    },
+    "timestamp": "2026-11-12T15:24:47.915748Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.045244s",
+      "megaCycles": "69"
+    },
+    "timestamp": "2026-11-12T15:24:47.911653Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.036897s",
+      "megaCycles": "16"
+    },
+    "timestamp": "2026-11-12T15:24:47.895861Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.036538s",
+      "megaCycles": "19"
+    },
+    "timestamp": "2026-11-12T15:24:47.894781Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.038802s",
+      "megaCycles": "3"
+    },
+    "timestamp": "2026-11-12T15:24:47.894628Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.040485s",
+      "megaCycles": "6"
+    },
+    "timestamp": "2026-11-12T15:24:47.894005Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.045745s",
+      "megaCycles": "42"
+    },
+    "timestamp": "2026-11-12T15:24:47.883521Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.032516s",
+      "megaCycles": "36"
+    },
+    "timestamp": "2026-11-12T15:24:47.875572Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.055278s",
+      "megaCycles": "38"
+    },
+    "timestamp": "2026-11-12T15:24:47.861196Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.058837s",
+      "megaCycles": "8"
+    },
+    "timestamp": "2026-11-12T15:24:47.858203Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.031163s",
+      "megaCycles": "8"
+    },
+    "timestamp": "2026-11-12T15:24:47.855034Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.030183s",
+      "megaCycles": "26"
+    },
+    "timestamp": "2026-11-12T15:24:47.855024Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.033195s",
+      "megaCycles": "2"
+    },
+    "timestamp": "2026-11-12T15:24:47.853588Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.035316s",
+      "megaCycles": "8"
+    },
+    "timestamp": "2026-11-12T15:24:47.852819Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.052326s",
+      "megaCycles": "25"
+    },
+    "timestamp": "2026-11-12T15:24:47.846224Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.037317s",
+      "megaCycles": "37"
+    },
+    "timestamp": "2026-11-12T15:24:47.837833Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.032535s",
+      "megaCycles": "70"
+    },
+    "timestamp": "2026-11-12T15:24:47.835937Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.029984s",
+      "megaCycles": "27"
+    },
+    "timestamp": "2026-11-12T15:24:47.821321Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.031146s",
+      "megaCycles": "3"
+    },
+    "timestamp": "2026-11-12T15:24:47.813945Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.032520s",
+      "megaCycles": "31"
+    },
+    "timestamp": "2026-11-12T15:24:47.812465Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.035752s",
+      "megaCycles": "6"
+    },
+    "timestamp": "2026-11-12T15:24:47.811210Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.035949s",
+      "megaCycles": "6"
+    },
+    "timestamp": "2026-11-12T15:24:47.811013Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.044850s",
+      "megaCycles": "8"
+    },
+    "timestamp": "2026-11-12T15:24:47.809414Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.039800s",
+      "megaCycles": "27"
+    },
+    "timestamp": "2026-11-12T15:24:47.798698Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.031954s",
+      "megaCycles": "1"
+    },
+    "timestamp": "2026-11-12T15:24:47.795064Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.034897s",
+      "megaCycles": "78"
+    },
+    "timestamp": "2026-11-12T15:24:47.791797Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.035756s",
+      "megaCycles": "24"
+    },
+    "timestamp": "2026-11-12T15:24:47.778343Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.028699s",
+      "megaCycles": "40"
+    },
+    "timestamp": "2026-11-12T15:24:47.772420Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.034777s",
+      "megaCycles": "15"
+    },
+    "timestamp": "2026-11-12T15:24:47.770310Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.036824s",
+      "megaCycles": "12"
+    },
+    "timestamp": "2026-11-12T15:24:47.770102Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.034239s",
+      "megaCycles": "2"
+    },
+    "timestamp": "2026-11-12T15:24:47.768187Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.046229s",
+      "megaCycles": "6"
+    },
+    "timestamp": "2026-11-12T15:24:47.755685Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.029703s",
+      "megaCycles": "71"
+    },
+    "timestamp": "2026-11-12T15:24:47.754811Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.037781s",
+      "megaCycles": "9"
+    },
+    "timestamp": "2026-11-12T15:24:47.753076Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.031668s",
+      "megaCycles": "53"
+    },
+    "timestamp": "2026-11-12T15:24:47.727990Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.048756s",
+      "megaCycles": "19"
+    },
+    "timestamp": "2026-11-12T15:24:47.721402Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.068668s",
+      "megaCycles": "15"
+    },
+    "timestamp": "2026-11-12T15:24:47.718955Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.043711s",
+      "megaCycles": "2"
+    },
+    "timestamp": "2026-11-12T15:24:47.718818Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.043s",
+      "megaCycles": "9"
+    },
+    "timestamp": "2026-11-12T15:24:47.718475Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.052539s",
+      "megaCycles": "9"
+    },
+    "timestamp": "2026-11-12T15:24:47.713306Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.061895s",
+      "megaCycles": "37"
+    },
+    "timestamp": "2026-11-12T15:24:47.683455Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.067546s",
+      "megaCycles": "37"
+    },
+    "timestamp": "2026-11-12T15:24:47.677803Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.080087s",
+      "megaCycles": "1"
+    },
+    "timestamp": "2026-11-12T15:24:47.665339Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.044310s",
+      "megaCycles": "2"
+    },
+    "timestamp": "2026-11-12T15:24:47.664620Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.046110s",
+      "megaCycles": "6"
+    },
+    "timestamp": "2026-11-12T15:24:47.663943Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.055778s",
+      "megaCycles": "23"
+    },
+    "timestamp": "2026-11-12T15:24:47.662278Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.044993s",
+      "megaCycles": "79"
+    },
+    "timestamp": "2026-11-12T15:24:47.660961Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.048871s",
+      "megaCycles": "11"
+    },
+    "timestamp": "2026-11-12T15:24:47.659825Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.047587s",
+      "megaCycles": "8"
+    },
+    "timestamp": "2026-11-12T15:24:47.659240Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.052389s",
+      "megaCycles": "4"
+    },
+    "timestamp": "2026-11-12T15:24:47.655303Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.028715s",
+      "megaCycles": "69"
+    },
+    "timestamp": "2026-11-12T15:24:47.641943Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.029026s"
+    },
+    "timestamp": "2026-11-12T15:24:47.621715Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.030767s",
+      "megaCycles": "9"
+    },
+    "timestamp": "2026-11-12T15:24:47.621362Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.034537s",
+      "megaCycles": "21"
+    },
+    "timestamp": "2026-11-12T15:24:47.621257Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.029742s",
+      "megaCycles": "17"
+    },
+    "timestamp": "2026-11-12T15:24:47.620924Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.037761s",
+      "megaCycles": "2"
+    },
+    "timestamp": "2026-11-12T15:24:47.620014Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.032564s"
+    },
+    "timestamp": "2026-11-12T15:24:47.619801Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.038567s",
+      "megaCycles": "7"
+    },
+    "timestamp": "2026-11-12T15:24:47.618748Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.033308s",
+      "megaCycles": "54"
+    },
+    "timestamp": "2026-11-12T15:24:47.615623Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.047833s",
+      "megaCycles": "89"
+    },
+    "timestamp": "2026-11-12T15:24:47.585716Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.038177s",
+      "megaCycles": "7"
+    },
+    "timestamp": "2026-11-12T15:24:47.571679Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.041528s",
+      "megaCycles": "3"
+    },
+    "timestamp": "2026-11-12T15:24:47.568998Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.040346s",
+      "megaCycles": "1"
+    },
+    "timestamp": "2026-11-12T15:24:47.566911Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.040182s",
+      "megaCycles": "1"
+    },
+    "timestamp": "2026-11-12T15:24:47.566643Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.040485s",
+      "megaCycles": "66"
+    },
+    "timestamp": "2026-11-12T15:24:47.564978Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.045656s",
+      "megaCycles": "1"
+    },
+    "timestamp": "2026-11-12T15:24:47.561614Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.047228s",
+      "megaCycles": "7"
+    },
+    "timestamp": "2026-11-12T15:24:47.561577Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.116783s",
+      "megaCycles": "8"
+    },
+    "timestamp": "2026-11-12T15:24:47.555600Z"
+  },
+  {
+    "protoPayload": {
+      "latency": "0.031123s",
+      "megaCycles": "63"
+    },
+    "timestamp": "2026-11-12T15:24:47.547311Z"
+  }
+]

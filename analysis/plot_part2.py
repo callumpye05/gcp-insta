@@ -22,11 +22,6 @@ for r in rows:
     n =int(r["instances_configured"])
     c = int(r["clients"])
 
-    #pour N=1 et C=16 on utilise seulement run1.csv car c'était la tentative initial
-    if n ==1 and c == 16:
-        if r["filename"] != "run1.csv":
-            continue
-
     groupes[(n,c)].append(r)
 
 data = []
@@ -104,7 +99,6 @@ plt.figure(figsize=(9,5))
 
 for n in [1,2,4]:
     valeurs= [r for r in data if r["instances"] == n]
-
     x =[r["clients"] for r in valeurs]
     y= [r["latency_median_ms"] for r in valeurs]
     little = [r["little_prediction_ms"] for r in valeurs]

@@ -4,27 +4,21 @@ import statistics
 from pathlib import Path
 from collections import Counter
 
-raw =Path("raw")
+raw = Path("raw/part2")
 figures = Path("figures")
 duration= 45
 
 #fichier de different test
-tests= []
+tests = []
 
-for n in [1,2, 4]:
-    for c in [1, 2, 4, 8, 16, 32,64]:
-        file = f"fixed{n}_c{c}.csv"
-
+for n in [1, 2, 4]:
+    for c in [1, 2, 4, 8, 16, 32, 64]:
         if n == 1:
-            if c == 16:
-                file= "run1.csv"
-            else:
-                file = f"baseline_c{c}.csv"
+            file = f"baseline_c{c}.csv"
+        else:
+            file = f"fixed{n}_c{c}.csv"
 
-        tests.append((n,c,file))
-
-        if n == 1 and c == 16:
-            tests.append((1, 16, "baseline_c16.csv"))
+        tests.append((n, c, file))
 
 
 def med(values):

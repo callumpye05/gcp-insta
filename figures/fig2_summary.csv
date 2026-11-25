@@ -3,7 +3,6 @@ instances_configured,clients,filename,total_requests,successful_requests,failed_
 1,2,baseline_c2.csv,988,988,0,0.0,21.956,90.412,87.2,32.1,44.300000000000004,91.093,1,{}
 1,4,baseline_c4.csv,946,946,0,0.0,21.022,188.973,184.45,30.15,142.6,190.275,1,{}
 1,8,baseline_c8.csv,973,972,1,0.103,21.6,366.458,346.0,32.0,306.09999999999997,370.37,1,{'ConnectionRefusedError': 1}
-1,16,run1.csv,899,891,8,0.89,19.8,692.136,730.9,30.1,698.2,808.081,1,"{'ConnectionRefusedError': 1, 'gaierror': 7}"
 1,16,baseline_c16.csv,1159,1150,9,0.777,25.556,500.161,548.0999999999999,25.5,517.3499999999999,626.087,1,"{'ConnectionRefusedError': 1, 'gaierror': 8}"
 1,32,baseline_c32.csv,1192,1185,7,0.587,26.333,1151.606,1148.6,24.6,1119.3,1215.19,1,"{'ConnectionRefusedError': 3, 'gaierror': 4}"
 1,64,baseline_c64.csv,1235,1233,2,0.162,27.4,2250.49,2252.9,24.8,2223.7000000000003,2335.766,1,"{'ConnectionRefusedError': 1, 'gaierror': 1}"

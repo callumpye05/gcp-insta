@@ -56,7 +56,7 @@ fig.suptitle("Fig. 1a - Temps serveur selon U et P")
 
 #parametres fixe pour chaque expérience réalisé 
 fig.text(0.25,0.01,"P=20, F=20, N=1, C=1",ha="center",fontsize=9)
-fig.text(0.75,0.01,"U=100, F=20, N=1, C=1",ha="center",fontsize=9)
+fig.text(0.75,0.01,"U=1000, F=20, N=1, C=1",ha="center",fontsize=9)
 
 plt.tight_layout(rect=[0,0.05,1,0.94])
 plt.savefig(figures / "fig1a.png",dpi=200)

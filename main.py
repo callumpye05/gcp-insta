@@ -4,6 +4,7 @@ from datetime import datetime, timedelta
 import os
 import random
 import time
+from google.cloud.datastore.query import PropertyFilter
 
 app = Flask(__name__)
 app.secret_key = 'dev-key'  # À changer en prod
@@ -36,41 +37,27 @@ TEMPLATE_INDEX = '''
 '''
 
 def get_timeline(user: str, limit: int = 20):
-    """Retourne la liste des posts (entités) pour la timeline d'un utilisateur."""
-    if not user:
+    """Retourne les posts les plus récents de l'utilisateur et de ses abonnements."""
+    if not user or limit <= 0:
         return []
+
     follow_key = client.key('User', user)
     user_entity = client.get(follow_key)
     follows = []
     if user_entity:
         follows = user_entity.get('follows', [])
     follows = list({*follows, user})
+    posts = []
 
-    timeline = []
-    used_gql = False
-    try:
-        if hasattr(client, 'gql'):
-            gql = client.gql("SELECT * FROM Post WHERE author IN @authors ORDER BY created DESC")
-            gql.bindings["authors"] = follows
-            timeline = list(gql.fetch(limit=limit))
-            used_gql = True
-    except Exception:
-        pass
-    if not used_gql:
-        try:
-            query = client.query(kind='Post')
-            query.add_filter('author', 'IN', follows)
-            query.order = ['-created']
-            timeline = list(query.fetch(limit=limit))
-        except Exception:
-            posts = []
-            for author in follows:
-                q = client.query(kind='Post')
-                q.add_filter('author', '=', author)
-                q.order = ['-created']
-                posts.extend(list(q.fetch(limit=limit)))
-            timeline = sorted(posts, key=lambda p: p.get('created'), reverse=True)[:limit]
-    return timeline
+    #datastore autorise au max 30 valeurs dans un IN, donc on peut exploiter ceci afin de reduire le nombre de requetes
+    for i in range(0, len(follows),30):
+        batch = follows[i:i +30]
+        query =client.query(kind='Post')
+        query.add_filter(filter=PropertyFilter('author','IN', batch))
+        query.order =['-created']
+        posts.extend(list(query.fetch(limit=limit)))
+
+    return sorted(posts,key=lambda p: p.get('created'),reverse=True)[:limit]
 
 
 def seed_data(users: int = 5, posts: int = 30, follows_min: int = 1, follows_max: int = 3, prefix: str = 'user'):

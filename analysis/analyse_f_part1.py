@@ -10,7 +10,6 @@ figures = Path("figures")
 
 #20 tests de f 
 tests = []
-
 for f in range(5,101,5):
     file = f"f{f:02d}.csv"
     tests.append((f,file))
