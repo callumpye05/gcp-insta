@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 
 figures = Path("figures")
 
-with open(figures / "variation.csv", newline="") as f:
+with open(figures / "part-3-second-bottleneck" / "variation.csv", newline="") as f:
     rows = list(csv.DictReader(f))
 
 files = []
@@ -35,7 +35,7 @@ plt.grid(True, alpha=0.3)
 plt.legend(fontsize=8)
 plt.tight_layout()
 
-plt.savefig(figures / "variation_throughput.png", dpi=200)
+plt.savefig(figures /"part-3-second-bottleneck" /  "variation_throughput.png", dpi=200)
 plt.close()
 
 
@@ -60,7 +60,7 @@ plt.grid(True, alpha=0.3)
 plt.legend(fontsize=8)
 plt.tight_layout()
 
-plt.savefig(figures / "variation_latency.png", dpi=200)
+plt.savefig(figures / "part-3-second-bottleneck" /  "variation_latency.png", dpi=200)
 plt.close()
 
 print("Graphes sauvegardes")

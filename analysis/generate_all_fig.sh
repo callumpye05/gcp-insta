@@ -11,5 +11,6 @@ python3 analysis/plot_f_part1.py
 python3 analysis/plot_part2.py
 python3 analysis/plot_part3.py
 python3 analysis/plot_b1_b2.py
+python3 analysis/plot_variation.py
 
 echo "All figures are generated"

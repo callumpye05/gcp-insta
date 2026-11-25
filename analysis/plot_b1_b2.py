@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 files = {"B1 - Essai 1": "worker4thread4_c16.csv","B1 - Essai 2": "worker4thread4_c16_repeat.csv","B2 - Essai 1": "b2cpu_c16_run1.csv","B2 - Essai 2": "b2cpu_c16_run2.csv",}
 
 raw_dir = Path("raw/part3")
-output =Path("figures")
+output =Path("figures/part-3-second-bottleneck")
 output.mkdir(exist_ok=True)
 
 interval =15  #regroupement des mesures par 15 secondes
@@ -49,4 +49,4 @@ fig.suptitle("Comparaison B1 / B2 - 4 workers, 4 threads, C=16")
 plt.tight_layout()
 plt.savefig(output / "comparaison_b1_b2.png", dpi=150)
 plt.close()
-print("Figure créée : figures/comparaison_b1_b2.png")
+print("Figure créée : figures/part-3-second-bottleneck/comparaison_b1_b2.png")

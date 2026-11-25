@@ -3,14 +3,14 @@ Projet Données Massives et Cloud  2026
 
 ## Introduction
 
-TinyInsta est une application de réseau social développée avec Flask et déployée sur Google App Engine, utilisant Google Cloud Datastore pour stocker les données. Elle permet notamment de consulter une timeline contenant les publications récentes des comptes suivis.
+TinyInsta est une application de réseau social développé avec Flask et déployée sur Google App Engine, utilisant Google Cloud Datastore pour stocker les données. Elle permet notamment de consulter une timeline contenant les publications récentes des comptes suivis.
 
-L'objectif de cette étude est de répondre à une question, **TinyInsta peut-elle maintenir des performances satisfaisantes lorsque le volume de données et la charge augmentent ?**
+L'objectif de cette étude est de répondre à une question, **TinyInsta peut-elle maintenir des performances satisfaisantes lorsque le volume de données et la charge augmentent?**
 
-Pour y répondre, j'ai étudié deux aspects de la scalabilité :
+Pour y répondre, j'ai étudié deux aspects de la scalabilité, soit :
 
 - **Scalabilité des données :** capacité à gérer davantage de données sans dégradation disproportionnée des performances. J'étudie trois paramètres : **U** (nombre d'utilisateurs), **P** (publications par utilisateur) et **F** (comptes suivis par utilisateur).
-- **Scalabilité des ressources :** capacité à exploiter des ressources supplémentaires pour traiter davantage de requêtes. J'analyse l'influence de **N** (nombre d'instances applicatives) et de **C** (nombre de clients concurrents) sur le débit et la latence.
+- **Scalabilité des ressources:** capacité à exploiter des ressources supplémentaires pour traiter davantage de requêtes.J'analyse l'influence de **N** (nombre d'instances applicatives) et de **C** (nombre de clients concurrents) sur le débit et la latence.
 
 ## Démarche expérimentale
 
@@ -171,6 +171,26 @@ bash analysis/generate_all_fig.sh
 ```
 
 Cette commande permet de reproduire les analyses à partir des mesures enregistrées, sans relancer les benchmarks sur Google Cloud.
+
+
+
+#### Configuration de l'environnement
+
+Les expérimentations ont été réalisées sur le projet Google Cloud `massive-data-project-513113`, dans la région `europe-west9` (Paris).
+```
+callumpye05@cloudshell:~/tinyinsta-2026 (massive-data-project-513113)$ gcloud app describe --format="value(locationId)"
+europe-west
+```
+
+J'ai déployé plusieurs versions de TinyInsta sur App Engine afin de comparer différentes configurations, sans modifier la version principale de l'application.
+
+Les mesures ont été réalisées entre octobre et novembre 2026, à l'aide de Locust.
+
+Pour générer la charge, j'ai utilisé **Locust depuis Google Cloud Shell**. Les requêtes étaient donc envoyées depuis cet environnement distant et non depuis mon ordinateur personnel.
+
+
+
+
 
 ## 2. Résultats expérimentaux
 
