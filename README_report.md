@@ -592,6 +592,21 @@ Le passage de 1 à 4 instances multiplie le débit observé par **3,41 et non pa
 Je constate donc une amélioration importante, mais non parfaitement linéaire. Les workers synchrones limitent la concurrence traitée par chaque instance, tandis que d'autres facteurs, notamment App Engine et Datastore, peuvent influencer le débit global.
 Mes mesures ne permettent cependant pas d'identifier avec certitude le composant responsable de l'écart au facteur idéal de 4.
 
+
+#### Limites de la configuration de Gunicorn
+
+En regardant le script `deploy_fixed.sh`, j'ai remarqué que Gunicorn était lancé avec ses paramètres par défaut. 
+Je pense qu'un goulot d'étranglement se situe probablement au niveau
+de la configuration de Gunicorn.
+D'après la [documentation officielle de Gunicorn](https://gunicorn.org/reference/settings/#workers),
+le nombre de workers par défaut est de 1 et le type de worker est
+synchrone(`sync`). En l'absence de configuration supplémentaire,
+chaque instance ne peut donc traiter qu'une seule requête à la fois.
+
+Cette configuration pourrait limiter le débit maximal de chaque
+instance et expliquer en partie les performances observées lors
+de la montée en charge.
+
 #### 2.2.5 Limites de la scalabilité horizontale
 
 Les résultats montrent que l'ajout d'instances améliore le débit et réduit la latence sous forte concurrence. Cependant, je considère que cette approche présente certaines limites.
@@ -869,6 +884,25 @@ Cette mesure constitue un indice concret : **une partie importante de la latence
 Cependant, cette observation concerne un intervalle précis du test B2. Elle ne permet pas d'expliquer à elle seule la chute initiale du débit ni pourquoi les deux essais B2 ont produit des résultats différents.
 
 Je ne peux donc pas conclure que le passage de B1 à B2 constitue une correction fiable du second goulot d'étranglement. Cette investigation m'a surtout permis d'identifier **la mise en attente des requêtes comme une piste sérieuse**, dont les causes restent à déterminer.
+
+#### Conclusion sur le second goulot d'étranglement
+
+Je pense que la configuration de Gunicorn joue un rôle important dans
+le goulot d'étranglement observé, mais je ne pense pas du tout qu'elle soit
+le seul facteur responsable.
+
+Le problème pourrait également provenir de la manière dont App Engine
+distribue et met en attente les requêtes. Cette hypothèse est renforcée
+par le `pendingTime` relevé dans les journaux et par l'écart important
+entre la latence client et le temps d'exécution côté serveur.
+
+De plus, le fait que deux essais réalisés avec une même configuration
+puissent donner des résultats aussi différents suggère que d'autres
+facteurs influencent la gestion des requêtes concurrentes.
+
+La configuration de Gunicorn reste donc une piste d'optimisation
+pertinente, mais mes expérimentations ne permettent pas d'identifier
+avec certitude l'origine de ce second goulot d'étranglement.
 
 ## 3. Tableau des verdicts
 
