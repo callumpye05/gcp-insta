@@ -1,5 +1,8 @@
 # Tiny Instagram (minimal) on Google App Engine
 
+
+## Rendu est dans README_report.md
+
 This repository contains a tiny Instagram-like demo implemented with Flask and Google Cloud Datastore (Firestore in Datastore mode). It is a small, educational project that demonstrates posting, following, and reading a simple timeline.
 
 **Project subject (2026): https://tinyinsta-2026-37bcc6.univ-nantes.io/ (source: [SUJET.md](SUJET.md)).**
