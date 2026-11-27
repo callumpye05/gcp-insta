@@ -202,7 +202,7 @@ Ce comportement est visible dans get_timeline():
 ```
 follow_key = client.key('User', user)
 user_entity = client.get(follow_key)
-
+```
 La fonction récupère ensuite les comptes suivis par cet utilisateur et ajoute l'utilisateur lui même à la liste des auteurs:
 
 ```
@@ -648,7 +648,7 @@ Les résultats obtenus sont globalement cohérents avec mes hypothèses initiale
 
 **H3 Confirmée :** l'ajout d'instance améliore la capacité de traitement de TinyInsta. Comme je le supposais,cette progression n'est pas parfaitement linéaire. Le passage de une à quatre instances multiplie le débit par 3,41 au lieu de 4 à C =64.
 
-- **H4 — Partiellement confirmée :** sous forte concurrence, la latence client augmente considérablement, alors que le temps d'exécution de `get_timeline()` reste relativement stable. Cela suggère qu'une partie importante du temps de réponse provient de l'attente des requête plutôt que de leur traitement applicatif.
+**H4 Partiellement confirmée :** sous forte concurrence, la latence client augmente considérablement, alors que le temps d'exécution de `get_timeline()` reste relativement stable. Cela suggère qu'une partie importante du temps de réponse provient de l'attente des requête plutôt que de leur traitement applicatif.
 Une explication possible concerne l'utilisation d'un seul worker synchrone par instance. Lorsqu'un worker attend une réponse de Datastore, il reste occupé et ne peut pas prendre en charge une autre requête, même s'il n'utilise pas pleinement le CPU. Cette configuration pourrait donc empêcher une exploitation efficace des ressources disponibles.
 
 Cependant, le temps mesuré dans `get_timeline()` ne permet pas de distinguer le temps réellement consacré aux calculs de celui passé à attendre les réponses de Datastore. Et de même,l'écart entre la latence client et le temps serveur ne permet pas de localiser précisément l'attente, qui pourrait également se produire au niveau d'App Engine.
