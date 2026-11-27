@@ -30,7 +30,7 @@ Pour analyser les résultats, j'ai utilisé plusieurs indicateurs:
 
 - **Temps serveur (`SERVER_MS`) :** durée d'exécution de `get_timeline()`,mesurée directement par l'application et transmise via l'entête HTTP `Server-Timing`
 - **Latence client (`LATENCY_MS`) :** temps total mesuré par Locust entre l'envoi d'une requête et la réception de sa réponse
-- **Débit (*throughput*) :** nombre de requêtes réussies par seconde(req/s).
+- **Débit :** nombre de requêtes réussies par seconde(req/s).
 - **Concurrence (C) :** nombre de clients virtuels Locust sollicitant l'application simultanément
 
 Pour les latences, j'ai principalement utilisé la **médiane**, car elle est moins sensible aux valeurs extrêmes que la moyenne.
@@ -59,10 +59,8 @@ Les publications sélectionnées sont finalement renvoyées au client sous forme
 Les expérimentations ont été réalisées sur Google Cloud Platform, en utilisant principalement deux services: Google App Engine pour l'hébergement de l'application et Google Cloud Datastore pour le stockage des données. J'ai également pu utiliser Google Cloud Metric Explorer comme outil de diagnostic. Afin de regarder l'utilisation CPU , ainsi que la consommation de mégacycles pendant des experiences en rapport avec la partie 3. 
 
 #### Google App Engine
-
-Google App Engine est un service de type Platform as a Service (PaaS), permettant de déployer une application sans administrer directement l'infrastructure sous-jacente. Le fournisseur prend en charge la gestion des serveurs et de l'environnement d'exécution, tandis que le développeur se concentre sur son application et sa configuration.
-
-Pour nos expériences,  j'ai principalement utilisé des instances B1, avec une mise à l'échelle manuelle (manual scaling), afin de fixer leur nombre et de comparer les performances sous différentes charges. Des instances B2, disposant de davantage de ressources, ont également été utilisées lors des investigations complémentaires.
+Google App Engine est un service de type PaaS(Platform as a Service).L'idée est de pouvoir déployer une application sans avoir à gérer soi-même les serveurs et l'infrastructure, puisque Google s'en charge.
+Pour mes expériences, j'ai surtout utilisé des instances B1 en manual scaling, ce qui me permettait de choisir moi-même le nombre d'instances. J'ai également testé des instances B2 par la suite, pour voir si le fait d'avoir plus de ressources pouvait améliorer les performances de l'application.
 
 #### Google Cloud Datastore
 
@@ -93,7 +91,7 @@ Les versions `fixed1`, `fixed2` et `fixed4` utilisent la même classe d'instance
 Les benchmarks principaux utilisent Gunicorn avec un seul processus de travail synchrone par instance, conformément à la configuration suivante:
 
 ```bash
-gunicorn --workers 1 --worker-class sync -b :$PORT main:app
+gunicorn -b :$PORT main:app
 ```
 Un worker synchrone traite une requête à la fois. Cette configuration permet d'étudier le comportement de l'application avec un niveau de concurrence interne fixé, tout en faisant varier le nombre d'instances App Engine.
 
@@ -162,17 +160,15 @@ Le dépôt Git contient le code de TinyInsta, les configurations de déploiement
 - `bench/` : génération des données et benchmarks Locust.
 - `raw/` : journaux bruts des expériences.
 - `analysis/` : scripts d'analyse et de génération des figures.
-- `figures/` : graphiques et résultats agrégés.
+- `figures/` : graphiques et résultats agrégés, '/part-3-second-bottleneck' contient une investigation apart pour tenter de trouver une solution pour un deuxième goulot identifié.
 
-Les cinq figures obligatoires peuvent être régénérées depuis la racine du dépôt avec :
+Les figures peuvent être régénérées depuis la racine du dépôt avec :
 
 ```bash
 bash analysis/generate_all_fig.sh
 ```
 
 Cette commande permet de reproduire les analyses à partir des mesures enregistrées, sans relancer les benchmarks sur Google Cloud.
-
-
 
 #### Configuration de l'environnement
 
@@ -183,13 +179,9 @@ europe-west
 ```
 
 J'ai déployé plusieurs versions de TinyInsta sur App Engine afin de comparer différentes configurations, sans modifier la version principale de l'application.
+Les mesures ont été réalisées entre mi-fin octobre et novembre 2026.
 
-Les mesures ont été réalisées entre octobre et novembre 2026, à l'aide de Locust.
-
-Pour générer la charge, j'ai utilisé **Locust depuis Google Cloud Shell**. Les requêtes étaient donc envoyées depuis cet environnement distant et non depuis mon ordinateur personnel.
-
-
-
+Pour générer la charge, j'ai utilisé **Locust depuis Google Cloud Shell**. Les requêtes étaient donc envoyées depuis cet environnement distant et non depuis mon ordinateur personnel pour la totalité du projet.
 
 
 ## 2. Résultats expérimentaux
@@ -202,7 +194,7 @@ Avant de réaliser les benchmarks, j'ai formulé trois hypothèses concernant l'
 Ces hypothèses reposent sur l'analyse de la fonction `get_timeline()`, notamment sur les requêtes Datastore, l'utilisation du filtre `IN`, le tri chronologique et la limitation des résultats.
 
 #### 1er hypothèse: Influence du nombre d'utilisateurs(U) ####
-Je supposais que l'augmentation de U n'affectera pas significativement la latence d'une timeline.
+Je suppose que l'augmentation de U n'affectera pas significativement la latence d'une timeline.
 En effet, l'application n'a pas besoin de charger les publications de tous les utilisateurs à chaque requête. Elle recherche uniquement celles des comptes suivis par l'utilisateur concerné.
 
 Ce comportement est visible dans get_timeline():
@@ -210,24 +202,39 @@ Ce comportement est visible dans get_timeline():
 ```
 follow_key = client.key('User', user)
 user_entity = client.get(follow_key)
-```
 
-La fonction construit ensuite la liste des auteurs concernés à partir des comptes suivis (follows). Ainsi, lorsque P et F restent constants, l'augmentation de U ne devrait pas entraîner une dégradation importante des performances.
+La fonction récupère ensuite les comptes suivis par cet utilisateur et ajoute l'utilisateur lui même à la liste des auteurs:
+
+```
+follows = user_entity.get('follows', [])
+follows = list({*follows, user})
+```
+D'après la [documentation de Google Cloud sur les entités Datastore](https://docs.cloud.google.com/datastore/docs/concepts/entities), une entité peut être récupérée directement à partir de sa clé.
+
+Ainsi, tant que P et F restent constants,l'augmentation de U ne devrait modifier ni le nombre d'auteurs consultés ni le nombre maximal de publications retournée.
+Je m'attends donc à une latence relativement stable, même lorsque le nombre total d'utilisateurs augmente fortement.
+
 
 #### Second hypothèse: Influence du nombre de publications(P) ####
-Je supposais que l'augmentation de P entraînera une croissance du volume de données stockées et des coûts de stockage, mais que son influence sur la latence restera modérée.
-En effet,les publications sont récupérées à l'aide de requêtes ordonnées par date,avec une limite de 20 résultats.Si les index Datastore sont exploités efficacement, l'application n'a pas besoin de parcourir toutes les publications pour construire une timeline.
+Je suppose que l'augmentation de P entraînerait une croissance du volume de données stockées et des coûts de stockage, mais que son influence sur la latence resterait modérée. En effet, dans `get_timeline()`, les publications sont récupérées à l'aide de requête ordonnées par date, avec une limite de 20 résultats par défaut:
 
 ```
+query = client.query(kind='Post')
+query.add_filter('author', 'IN', follows)
 query.order = ['-created']
 timeline = list(query.fetch(limit=limit))
 ```
 
+L'utilisation du filtre `IN` permet de limiter la recherche aux auteurs concernés, tandis que le tri et la limite permettent de récupérer uniquement les publications les plus récentes.
+D'après la [documentation de Google Cloud sur les index](https://docs.cloud.google.com/datastore/docs/concepts/optimize-indexes), les performances de la plupart des requêtes Datastore dépendent davantage de la taille des résultats retournés que du volume total de données stockées.
+
+Je suppose donc que, grâce aux index, Datastore n'aura pas besoin de parcourir toutes les publications pour construire une timeline.
+
+En conservant U et F constants, je m'attends à une augmentation modérée de la latence, qui ne devrait pas être proportionnelle à l'augmentation de P.
+
 #### Troisième hypothèse : influence du nombre de comptes suivis (F) ####
 
-Je supposais que l'augmentation de **F** pourrait entraîner une légère hausse de la latence, puisque davantage d'auteurs doivent être pris en compte lors de la construction d'une timeline.
-
-Cependant, la fonction `get_timeline()` utilise des requêtes groupées avec l'opérateur `IN` et limite le résultat aux 20 publications les plus récentes. Je m'attendais donc à ce que les performances restent relativement stables, même lorsque le nombre de comptes suivis augmente.
+Je suppose que l'augmentation de **F** pourrait entraîner une légère hausse de la latence, puisque davantage d'auteurs doivent être pris en compte lors de la construction d'une timeline. Cependant, la fonction `get_timeline()` utilise des requêtes groupées avec l'opérateur `IN` et limite le résultat aux 20 publications les plus récentes. Je m'attendais donc à ce que les performances restent relativement stables, même lorsque le nombre de comptes suivis augmente.
 
 Le mécanisme de repli, qui exécute une requête distincte par auteur, pourrait théoriquement entraîner une dégradation plus importante. Néanmoins, puisqu'il n'intervient qu'en cas d'échec des requêtes groupées, je ne m'attendais pas à ce qu'il influence les résultats dans des conditions normales.
 
@@ -323,7 +330,6 @@ La fonction ajoute également l'utilisateur lui-même aux comptes suivis :
 ```python
 follows = list({*follows, user})
 ```
-
 Ainsi, pour F =30, la liste peut contenir **31 auteurs distincts**, dépassant la limite.
 
 Lorsque les requêtes groupées échouent, le code éxecute le mécanisme de repli exécutant une requête distincte pour chaque auteur. Cette stratégie multiplie les accès à Datastore et fournit une explication cohérente de l'augmentation brutale observée. 
@@ -337,7 +343,7 @@ Cet ordre de grandeur, associé à la progression approximativement linéaire de
 
 **Conclusion — Figure 1b**
 
-Les résultats contredisent notre hypothèse initiale H3: contrairement à nos attentes, l'augmentation de F provoque une dégradation brutale des performances à partir de F = 30.
+Les résultats contredisent notre hypothèse initiale H3, contrairement à nos attentes, l'augmentation de F provoque une dégradation brutale des performances à partir de F = 30.
 
 L'analyse du code, des contraintes de Datastore et des mesures complémentaires suggère fortement que cette rupture provient de l'activation du mécanisme de repli, qui multiplie les requêtes individuelles.
 
@@ -399,11 +405,19 @@ Cette analyse montre qu'un passage de la requête groupée aux requêtes individ
 
 #### Conclusion partie 1 
 
-Les résultats montrent que TinyInsta conserve des performances relativement stables lorsque U et P augmentent, mais présente une dégradation majeure à partir de F = 30.
+Les résultats obtenus montrent que TinyInsta conserve des performances relativement stables lorsque le nombre d'utilisateurs U et le nombre de publications P augmentent. Ces résultats sont cohérents avec mes hypothèses H1 et H2. D'après la [documentation de Google Cloud sur les index](https://docs.cloud.google.com/datastore/docs/concepts/optimize-indexes), les performances de la plupart des requête dépendent davantage de la taille des résultats retournés que du volume total de données stockées.
 
-Cette rupture semble principalement liée à la stratégie de requêtage de get_timeline(), dont le mécanisme de repli multiplie les accès à Datastore. Elle révèle une limite de scalabilité qui pourrait également augmenter le coût des lectures.
+Par contre les résultats réfutent mon hypothèse H3. Je pensais initialement que l'utilisation de l'opérateur `IN` permettrait de conserver une augmentation relativement modérée de la latence lorsque F augmente.
 
-La troisième partie examinera une optimisation de cette stratégie, afin de réduire le nombre de requêtes nécessaires à la génération d'une timeline.
+Mon erreur venait principalement d'une connaissance insuffisante du fonctionnement de l'opérateur `IN` dans Datastore. Je n'avais pas pris en compte la [limite de 30 disjonctions](https://docs.cloud.google.com/datastore/docs/concepts/queries#in), ni les conséquences du dépassement de cette limite sur la stratégie de requêtage de l'application. À partir de F =30, le temps d'exécution augmente brutalement, jusqu'à atteindre 2 154,55 ms pour F = 100. L'analyse du code et des contraintes de Datastore suggère fortement que cette dégradation provient du mécanisme de repli, qui multiplie les requêtes individuelles.
+
+Ce résultat rejoint également les [bonnes pratiques recommandées par Google Cloud](https://docs.cloud.google.com/datastore/docs/best-practices),qui conseille de regrouper les opérations lorsque cela est possible afin de réduire le surcoût associé aux appels individuels.
+
+Ce que je trouve particulièrement intéressant dans ces résultats, c'est que le problème semble davantage lié à la manière dont l'application accède aux données qu'au volume de données lui même.Cette stratégie de requêtage a non seulement un impact sur les performances, mais également sur le coût potentiel de l'application.
+
+Je pense donc qu'augmenter les ressources de l'infrastructure ne serait pas forcément la meilleure solution à ce premier goulot d'étranglement.Il serait plus pertinent de revoir la stratégie de requêtage de `get_timeline()` afin de limiter le nombre d'accès à Datastore.
+C'est cette piste d'optimisation que j'explore dans la troisième partie.
+
 
 ### 2.2 Partie 2 — Capacité et passage à l'échelle
 
@@ -421,24 +435,52 @@ Je suppose qu'une augmentation du nombre de clients concurrents entraînera d'ab
 
 #### H2 - Saturation des ressources et évolution de la latence
 
-Je suppose que chaque configuration possède une capacité de traitement limitée. Au-delà d'un certain niveau de concurrence, le débit devrait atteindre un plateau, tandis que la latence continuerait d'augmenter en raison de l'accumulation des requêtes en attente.
+Je suppose que chaque configuration possède une capacité de traitement limitée.Dans `deploy_fixed.sh`,Gunicorn est lancé avec la commande suivante :
+
+```
+gunicorn -b :$PORT main:app
+```
+D'après la [documentation officielle de Gunicorn](https://docs.gunicorn.org/en/21.2.0/design.html#sync-workers),un worker synchrone ne peut traiter qu'une seule requête à la fois. Avec la configuration par défaut, chaque instance dispose d'un seul worker. Si les requêtes arrivent plus rapidement qu'elles ne peuvent être traitées, certaines devront attendre avant d'être prises en charge. Je m'attends donc à observer un plateau du débit au-delà d'un certain niveau de concurrence, tandis que la latence client continuera d'augmenter en raison de l'accumulation des requêtes en attente.
 
 #### H3 - Scalabilité horizontale
 
-Je suppose que l'ajout d'instances B1 permettra d'augmenter la capacité de traitement de TinyInsta. En théorie, doubler le nombre d'instances pourrait approximativement doubler le débit maximal. Toutefois, je ne m'attends pas à une progression parfaitement linéaire, notamment en raison des surcoûts d'infrastructure et de l'utilisation de services partagés comme Datastore.
+Je suppose que l'ajout d'instances B1 permettra d'augmenter la capacité de traitement. Le script `deploy_fixed.sh` utilise une mise à l'échelle manuelle:
+
+```yaml
+instance_class: B1
+manual_scaling:
+  instances: ${N}
+```
+D'après la [documentation d'App Engine](https://docs.cloud.google.com/appengine/docs/standard/how-instances-are-managed), la mise à l'échelle manuelle permet de maintenir un nombre fixe d'instance. Chaque instance possède ses propres ressources et son propre processus Gunicorn. L'ajout d'instances devrait donc permettre de traiter davantage de requêtes simultanément, en les répartissant entre plusieurs instances.
+Et donc en théorie,doubler le nombre d'instances pourrait approximativement doubler le débit maximal. Cependant, toutes les instances continuent d'accéder au même service Datastore. Je ne m'attends donc pas nécessairement à une progression parfaitement linéaire, notamment à cause des surcoûts liés à la distribution des requêtes et de l'utilisation de ressources partagées.
 
 #### H4 - Influence des opérations d'entrée/sortie
 
 Je suppose que TinyInsta pourrait être davantage limitée par les opérations d'entrée/sortie que par la puissance de calcul.
-En effet, `get_timeline()` effectue des lectures auprès de Datastore, un service distant.
+En examinant `get_timeline()`, je remarque que la fonction réalise principalement des opérations de lecture auprès de Datastore :
 
-Or, notre configuration de Gunicorn utilise un seul worker synchrone par instance. Selon la [documentation officielle de Gunicorn](https://gunicorn.org/design/#sync-workers),un worker synchrone ne traite qu'une requête à la fois.
+```
+user_entity = client.get(follow_key)
+```
+Puis, lors de la récupération des publications :
 
-Ainsi, lorsqu'il attend une réponse de Datastore, il ne peut pas traiter une autre requête simultanément, ce qui pourrait contribuer à l'accumulation des requêtes en attente sous forte concurrence.
+```
+timeline = list(query.fetch(limit=limit))
+```
 
-Je m'attends donc à ce qu'une forte concurrence provoque une accumulation de requêtes en attente, augmentant la latence client sans nécessairement augmenter proportionnellement le temps mesuré dans `get_timeline()`.
+Ces opérations nécessitent des échanges avec un service distant. Le worker doit donc attendre les réponses de Datastore avant de poursuivre l'exécution de la fonction.
+Or, avec un worker synchrone, Gunicorn ne peut pas profiter de cette attente pour traiter une autre requête.
+Je suppose donc qu'une partie de la capacité de traitement pourrait être limitée par le temps passé à attendre les réponses de Datastore, plutôt que par la quantité de calcul nécessaire à la génération d'une timeline.
+Dans `api_timeline()`, le temps serveur est mesuré de la manière suivante:
 
-L'ajout d'instances pourrait atténuer cette attente en répartissant les requêtes. Toutefois, les seules mesures de débit et de latence ne permettront pas de confirmer avec certitude que l'application est principalement limitée par les I/O plutôt que par le CPU.
+```
+t0 = time.perf_counter()
+entities = get_timeline(user, limit=limit)
+elapsed_ms = (time.perf_counter() - t0) * 1000
+```
+Cette mesure correspond uniquement au temps d'exécution de `get_timeline()`, et ne comprend donc pas l'attente éventuelle avant l'exécution de cette fonction.
+Je m'attends ainsi à ce qu'une forte concurrence entraîne une augmentation importante de la latence client, sans nécessairement provoquer une augmentation proportionnelle du temps serveur.
+L'ajout d'instances pourrait réduire cette attente en répartissant les requêtes. Toutefois, les seules mesures de débit et de latence ne permettront pas de confirmer avec certitude que l'application est principalement limitée par les I/O plutôt que par le CPU
 
 #### 2.2.2 Protocole expérimental
 
@@ -469,7 +511,6 @@ Ce protocole doit permettre d'identifier les signes de saturation et de mesurer 
 
 
 ![Figure 2a, debit selon la concurrence](figures/fig2a.png)
-
 
 La figure 2a présente l'évolution du débit de TinyInsta en fonction du nombre de clients concurrents **C**, pour 1, 2 et 4 instances B1.
 
@@ -580,32 +621,10 @@ Une instance B1 atteint donc un débit maximal observé de **27,40 req/s** dans 
 
 Le fait d'utiliser **un seul worker synchrone par instance** constitue une limite importante car ce worker ne traite qu'une requête à la fois. Les autres requêtes peuvent devoir attendre, même si je ne peux pas déterminer précisément si le CPU, les accès à Datastore ou la gestion des requêtes par App Engine constituent la limitation principale.
 
-**Vérification de la loi de Little**
-
-À C = 64, les temps de réponse moyens estimés par la loi de Little restent proches des mesures expérimentales, notamment pour N = 1 et N = 2, où les débits montrent des signes de saturation.
-
-Cela confirme que mes résultats sont **compatibles avec la loi de Little**, sous l'hypothèse d'un système approximativement stable et de clients sans temps d'attente significatif entre leurs requêtes.
-
-#### Limite du passage à l'échelle ####
-
-Le passage de 1 à 4 instances multiplie le débit observé par **3,41 et non par 4** à C = 64.
-Je constate donc une amélioration importante, mais non parfaitement linéaire. Les workers synchrones limitent la concurrence traitée par chaque instance, tandis que d'autres facteurs, notamment App Engine et Datastore, peuvent influencer le débit global.
-Mes mesures ne permettent cependant pas d'identifier avec certitude le composant responsable de l'écart au facteur idéal de 4.
-
 
 #### Limites de la configuration de Gunicorn
 
-En regardant le script `deploy_fixed.sh`, j'ai remarqué que Gunicorn était lancé avec ses paramètres par défaut. 
-Je pense qu'un goulot d'étranglement se situe probablement au niveau
-de la configuration de Gunicorn.
-D'après la [documentation officielle de Gunicorn](https://gunicorn.org/reference/settings/#workers),
-le nombre de workers par défaut est de 1 et le type de worker est
-synchrone(`sync`). En l'absence de configuration supplémentaire,
-chaque instance ne peut donc traiter qu'une seule requête à la fois.
-
-Cette configuration pourrait limiter le débit maximal de chaque
-instance et expliquer en partie les performances observées lors
-de la montée en charge.
+La configuration par défaut de Gunicorn constitue une piste d'optimisation intéressante. Il serait pertinent de déterminer si l'augmentation du nombre de workers et de threads permettrait d'améliorer la capacité de traitement de chaque instance.
 
 #### 2.2.5 Limites de la scalabilité horizontale
 
@@ -617,7 +636,29 @@ De plus, augmenter le nombre d'instances ne corrige pas les inefficacités du co
 
 J'en conclus que **la scalabilité horizontale améliore la capacité globale de TinyInsta, mais ne réduit pas nécessairement le coût de traitement d'une requête individuelle**.
 
-C'est pourquoi je vais maintenant examiner une autre approche : **l'optimisation de l'algorithme de génération des timelines**.
+
+
+#### 2.2.6 Conclusion sur les hypothèses de la partie 2
+
+Les résultats obtenus sont globalement cohérents avec mes hypothèses initiale,même si certaines restent difficile à confirmer entièrement.
+
+**H1 Confirmée :** l'augmentation du nombre de clients concurrents permet effectivement d'augmenter le débit. Cependant, comme prévu, les gains deviennent de plus en plus faibles lorsque la charge augmente.
+ 
+**H2 Globalement confirmée:** les résultats montrent des signes de saturation, notamment avec une et deux instances. Lorsque le débit se stabilise, la latence client continue d'augmenter. Ce comportement est également cohérent avec la loi de Little. Pour quatre instances,je remarque un ralentissement de la progression du débit, mais je ne peux pas affirmer qu'un plateau définitif a été atteint.
+
+**H3 Confirmée :** l'ajout d'instance améliore la capacité de traitement de TinyInsta. Comme je le supposais,cette progression n'est pas parfaitement linéaire. Le passage de une à quatre instances multiplie le débit par 3,41 au lieu de 4 à C =64.
+
+- **H4 — Partiellement confirmée :** sous forte concurrence, la latence client augmente considérablement, alors que le temps d'exécution de `get_timeline()` reste relativement stable. Cela suggère qu'une partie importante du temps de réponse provient de l'attente des requête plutôt que de leur traitement applicatif.
+Une explication possible concerne l'utilisation d'un seul worker synchrone par instance. Lorsqu'un worker attend une réponse de Datastore, il reste occupé et ne peut pas prendre en charge une autre requête, même s'il n'utilise pas pleinement le CPU. Cette configuration pourrait donc empêcher une exploitation efficace des ressources disponibles.
+
+Cependant, le temps mesuré dans `get_timeline()` ne permet pas de distinguer le temps réellement consacré aux calculs de celui passé à attendre les réponses de Datastore. Et de même,l'écart entre la latence client et le temps serveur ne permet pas de localiser précisément l'attente, qui pourrait également se produire au niveau d'App Engine.
+
+Les résultats sont donc cohérents avec une partie de mon hypothèse, mais sans mesures plus précises de l'utilisation du CPU, des accès à Datastore et des files d'attente, je ne peux pas affirmer que les opérations d'entrée/sortie constituent la limitation principale de TinyInsta.
+
+Ce que je retiens principalement de cette deuxième partie, c'est que l'ajout de ressources permet d'améliorer les performances, mais ne garantit pas une scalabilité linéaire.
+
+Je pense que la configuration par défaut de Gunicorn constitue une limitation importante, puisque chaque instance ne dispose que d'un seul worker synchrone. Cependant, je ne peux pas encore déterminer dans quelle mesure cette configuration est responsable des limites observées.
+Dans la troisième partie, je chercherai donc à améliorer les performances de TinyInsta en explorant deux pistes : l'optimisation de la stratégie de requêtage de `get_timeline()` et la modification de la configuration de Gunicorn.
 
 ### 2.3 Partie 3 — Correction du goulot d'étranglement
 
@@ -627,23 +668,40 @@ C'est pourquoi je vais maintenant examiner une autre approche : **l'optimisation
 
 J'ai réussi à apporter une correction au premier problème. Pour le second, j'ai exploré plusieurs pistes sans parvenir à identifier précisément son origine. Je présenterai également ces investigations complémentaires.
 
-#### 2.3.2 Solution : regroupement des requêtes Datastore
+#### 2.3.2 Hypothèse testée
 
-Comme expliqué dans la première partie, lorsque F atteint 30, la liste des auteurs dépasse la limite de 30 disjonctions autorisée par Datastore. Les requêtes groupées peuvent alors échouer, entraînant l'activation du mécanisme de repli qui effectue une requête par auteur.
+À partir des résultats obtenus dans la première partie,je suppose qu'il est possible de réduire considérablement la latence lorsque F atteint ou dépasse 30, sans augmenter les ressources disponibles sur App Engine.
 
-Pour éviter ce problème, j'ai choisi de **diviser les auteurs en lots de 30 maximum**, afin de continuer à utiliser l'opérateur `IN` sans dépasser sa limite.
-La nouvelle approche consiste à :
+Comme vu avant le mécanisme de repli effectue une requête individuelle pour chaque auteur:
 
-1. Récupérer les comptes suivis et ajouter l'utilisateur lui même.
-2. Répartir les auteurs en lots de 30 maximum.
-3. Effectuer une requête `IN` par lot, limitée à 20 publications.
-4. Regrouper les résultats et conserver les 20 publications les plus récentes.
+```python
+for author in follows:
+    q = client.query(kind='Post')
+    q.add_filter('author', '=', author)
+    q.order = ['-created']
+    posts.extend(list(q.fetch(limit=limit)))
+```
 
-Par exemple, avec **F = 100**, j'obtiens 101 auteurs, répartis en quatre lots de 30, 30, 30 et 11.
+Le nombre de requêtes envoyées à Datastore augmente donc directement avec le nombre de comptes suivis. Pour F = 100, cela représente 101 requêtes individuelles pour récupérer les publications.
+Comme vu avant, je suppose donc qu'en divisant les auteurs en lots de 30 maximum, je pourrai continuer à utiliser les requêtes groupées sans déclencher le mécanisme de repli. 
 
-Au lieu de réaliser **101 requêtes individuelles**, l'application n'en effectue donc que **4**, sans ajouter de ressources App Engine.
+Le nombre de requêtes nécessaires pour récupérer les publications serait alors donné par :
 
-Cette méthode conserve également le résultat attendu : une publication exclue des 20 plus récentes de son lot ne peut pas faire partie des 20 plus récentes globalement, puisqu'au moins 20 publications du même lot sont déjà plus récentes.
+$$
+B(F)=\left\lceil\frac{F+1}{30}\right\rceil
+$$
+
+Pour F =100, je passerais donc de 101 requêtes individuelles à seulement 4 requêtes groupées.
+
+**Comportements attendus :**
+
+- **Pour F < 30:** je m'attends à des performances relativement proches de celles de la version initiale, puisque celle-ci utilise déjà des requêtes groupée.
+- **Pour F >= 30:** je m'attends à une réduction importante de la latence grâce à la diminution du nombre de requêtes envoyées à Datastore.
+- **Évolution de la latence :** je suppose que la latence évoluera par paliers, puisque chaque nouveau lot nécessite une requête supplémentaire.
+- **Coût des lectures:** je m'attends également à une réduction du nombre d'entités récupérées, ce qui pourrait diminuer le coût des opérations Datastore.
+
+Mon hypothèse principale est donc que la modification de la stratégie de requêtage permettra d'améliorer la scalabilité de TinyInsta vis-à-vis de F, sans augmenter les ressources applicatives et tout en conservant le même résultat pour un jeu de données fixe.
+
 
 #### 2.3.3 Protocole 
 
@@ -717,13 +775,10 @@ Un avantage important de cette optimisation est qu'elle réduit le travail deman
 
 Je considère cet aspect particulièrement intéressant pour la scalabilité car si plusieurs utilisateurs consultent leur timeline simultanément, réduire les accès à Datastore par requête pourrait limiter la pression sur ce service partagé et améliorer l'utilisation globale des ressources.
 
-Cet avantage reste toutefois théorique dans notre étude, puisque je n'ai pas mesuré directement son effet sur le débit sous forte concurrence.
+Cet avantage reste toutefois théorique dans notre étude, puisque je n'ai pas mesuré directement son effet sur le débit sous forte concurrence. Les résultats confirment néanmoins mon hypothèse concernant la réduction de la latence et son évolution par paliers. J'ai donc réussi à améliorer la scalabilité de TinyInsta vis-à-vis de F sans augmenter les ressources applicative.
 
 
 #### 2.3.5 complexité et compromis
-
-
-
 
 
 **Complexité algorithmique**
@@ -754,6 +809,16 @@ le coût de la campagne se trouve dans la section 5.
 
 
 ### 2.4 Investigations complémentaire
+
+
+**Hypothèse testée**
+
+Je suppose que la configuration par défaut de Gunicorn constitue une des principales limitations de TinyInsta sous forte concurrence.
+Comme vu avant , un worker synchrone ne peut traiter qu'une seule requête à la fois. Or, dans `get_timeline()`, une partie du temps d'exécution est consacrée aux échanges avec Datastore, pendant lesquels le worker reste occupé.
+
+Je suppose donc qu'en augmentant le nombre de workers et de threads, l'instance pourra traiter davantage de requêtes simultanément et mieux exploiter ses ressources, notamment pendant les opérations d'entrée/sortie.
+
+Je m'attends ainsi à une augmentation importante et durable du débit, accompagnée d'une diminution de la latence client, sans avoir à augmenter le nombre d'instance App Engine.
 
 
 #### 2.4.1 Configurations Gunicorn et concurrence
@@ -801,51 +866,53 @@ Cependant, j'ai observé un comportement inattendu avec **4 workers et 4 threads
 
 J'ai donc répété l'expérience avec la même configuration. Cette fois, les faibles latences initiales n'ont pas été reproduites  les valeurs sont restées proches de **550 à 670 ms**.
 
-**Interprétation**
+**Interprétation du débit et de la latence**
 
-Ces résultats suggèrent qu'augmenter le nombre de workers et de threads peut améliorer les performances sous concurrence, mais les différences entre les deux tests à **4 workers et 4 threads** m'ont particulièrement interrogé.
+En comparant les deux graphiques,je remarque qu'augmenter le nombre de workers et de threads permet d'améliorer le débit et de réduire la latence. Cependant, les gains restent inférieurs à ceux auxquels je m'attendais.
 
-Une explication possible concerne la gestion des requete par App Engine. Selon la [documentation officielle de Google Cloud](https://docs.cloud.google.com/appengine/docs/standard/how-requests-are-handled), les requêtes peuvent être placées dans une file d'attente lorsqu'aucune instance n'est disponible pour les traiter immédiatement.
+Ce qui m'interroge particulièrement,c'est la différence entre les deux essais réalisés avec 4 workers et 4 threads. Lors du premier essai, la chute du débit s'accompagne d'une forte augmentation de la latence, tandis que le second essai ne reproduit pas les bonnes performances initiale.
 
-Je suppose donc que les très faibles latences observées au début du premier test correspondent à une période où les requêtes étaient traitées rapidement, avant qu'une accumulation de requêtes en attente n'augmente les temps de réponse.
-
-Le second test n'ayant pas reproduit cette phase initiale, il est possible que les conditions d'exécution aient été différentes, notamment en matière de répartition des requêtes ou d'attente au niveau d'App Engine.
-
-Cette explication reste toutefois une hypothèse: mes mesures ne permettent pas de déterminer précisément pourquoi les deux exécutions ont commencé dans des conditions différentes.
-
-J'ai donc poursuivi l'investigation en comparant les classes d'instances **B1 et B2**, afin d'évaluer si davantage de ressources pouvaient améliorer la situation.
+Une explication possible concerne la gestion des requêtes par App Engine, les requêtes peuvent être placées dans une file d'attente avant leur prise en charge.
+De plus, la [documentation concernant les problèmes de latence](https://docs.cloud.google.com/appengine/docs/standard/troubleshooter/latency) indique que des temps d'attente importants peuvent apparaître avec une mise à l'échelle manuelle, meme lorsque plusieurs instances sont disponibles.
+Je suppose donc qu'une accumulation de requêtes en attente pourrait contribuer à la dégradation des performances observée.
+Cependant, cette hypothèse ne permet pas d'expliquer pourquoi les deux essais réalisés avec une configuration identique ont donné des résultats aussi différents. Mes mesures ne permettent donc pas d'identifier précisément l'origine de cette limitation.
 
 
-#### Analyse du débit selon les configurations Gunicorn
+**Retour sur l'hypothèse**
 
-![Évolution du débit](figures/part-3-second-bottleneck/variation_throughput.png)
+Les résultats obtenus ne réfutent pas entièrement mon hypothèse initiale.En effet, augmenter le nombre de workers et de threads semble améliorer les performances sous concurrence.Cependant, les gains restent inférieurs à ceux auxquels je m'attendais, et les meilleures performances observée n'ont pas pu être reproduites avec une configuration identique.
 
-Ce graphique présente l'évolution du débit pour les différentes configurations Gunicorn, avec des mesures regroupées par intervalles de 15 secondes.
+Je pense donc que mon hypothèse initiale était incomplète. J'avais principalement considéré les limitations liées à Gunicorn, sans suffisamment prendre en compte l'influence des autres composants du système.
 
-**Observations**
+Une explication possible concerne la gestion des requêtes par App Engine. Selon la [documentation officielle de Google Cloud](https://docs.cloud.google.com/appengine/docs/standard/how-requests-are-handled), les requêtes peuvent être placées dans une file d'attente lorsqu'aucune instance n'est disponible pour les traiter immédiatement.
 
-Avec **un seul worker synchrone**, je remarque que le débit reste relativement faible, généralement entre **13 et 16 req/s** après la phase initiale.
+Je suppose donc que les très faibles latences observées au début du premier test pourraient correspondre à une période où les requêtes étaient traitées rapidement, avant qu'une accumulation de requêtes en attente n'augmente les temps de réponse. Le second test n'ayant pas reproduit cette phase initiale, il est possible que les conditions d'exécution aient été différentes, notamment au niveau de la gestion des requêtes par App Engine.
 
-Le passage à **deux workers** apporte une amélioration limité,  malgré un débit initial supérieur à 60 req/s, celui-ci diminue rapidement pour se stabiliser autour de **18 à 20 req/s**.
+Cependant, mes mesures ne permettent pas de vérifier cette explication ni de déterminer précisément pourquoi les deux essais ont donné des résultats aussi différents.
 
-Les configurations utilisant plusieurs threads obtiennent de meilleurs résultats, généralement autour de **23 à 30 req/s**. Cependant, le premier test avec **4 workers et 4 threads** présente un comportement particulier : le débit atteint initialement environ **124 req/s**, avant de redescendre autour de **23 à 28 req/s**.
+Je considère donc mon hypothèse comme partiellement confirmée: la configuration de Gunicorn semble avoir une influence sur les performances, mais sa modification ne constitue pas à elle seule une solution suffisante au goulot d'étranglement observé.
 
-J'ai donc répété cette expérience avec la même configuration. Cette fois, le pic initial n'est pas réapparu et le débit est resté proche de **25 à 29 req/s**.
+J'ai donc poursuivi l'investigation en comparant les classes d'instances **B1 et B2**, afin de déterminer si les ressources disponibles sur chaque instance pouvaient également constituer un facteur limitant.
 
-**Interprétation**
 
-Ces résultats suggèrent qu'augmenter le nombre de workers et de threads peut améliorer le débit, mais ne suffit pas à expliquer les fortes variations observées.
 
-En comparant les graphiques de débit et de latence, je remarque que **la chute du débit s'accompagne d'une augmentation des temps de réponse**
+**Hypothèse sur B1 et B2**
 
-Une explication possible concerne la gestion des requêtes par App Engine. En effet, la [documentation officielle de Google Cloud](https://docs.cloud.google.com/appengine/docs/standard/troubleshooter/latency) indique que des temps d'attente importants peuvent apparaitre avec une mise à l'échelle manuelle, même lorsque plusieurs instances sont disponible.
 
-Je suppose donc qu'une accumulation de requêtes en attente pourrait contribuer à la dégradation observée après les premières secondes du benchmark.
+À la suite des expériences précédentes, j'ai envisagé que les ressources disponibles sur une instance B1 puissent limiter l'efficacité des configurations utilisant plusieurs workers et threads. D'après la [documentation officielle de Google Cloud sur les classes d'instances App Engine](https://docs.cloud.google.com/appengine/docs/standard/overview#instance_classes), les instances B1 et B2 présentent les caractéristiques suivantes :
 
-Cependant, cette hypothèse ne permet pas encore d'expliquer pourquoi le pic initial n'a pas été reproduit lors du second test. Je ne peux donc pas identifier avec certitude l'origine du problème à partir de ces seules mesures.
+| Caractéristique | B1 | B2 |
+|---|---:|---:|
+| Mémoire disponible | 384 Mo | 768 Mo |
+| Puissance CPU relative | 600 MHz | 1,2 GHz |
 
-J'ai ainsi poursuivi l'investigation en comparant les classes d'instances **B1 et B2**, afin d'évaluer si l'augmentation des ressources disponibles pouvait modifier ce comportement.
+Google précise que ces valeurs CPU représentent la puissance de calcul relative allouée à chaque instance et non une fréquence d'horloge physique fixe.
+Une instance B2 dispose donc de deux fois plus de mémoire et d'une puissance de calcul relative deux fois supérieure à celle d'une instance B1.
+Je suppose que l'augmentation du nombre de workers sur une instance B1 pourrait entraîner une contention pour les ressources disponibles, ce qui expliquerait en partie les gains limités observés précédemment. En passant à une instance B2, je m'attends à ce que Gunicorn puisse mieux exploiter ses capacités de traitement concurrent grâce aux ressources supplémentaires.
 
+En conservant une configuration de 4 workers et 4 threads par worker, je m'attends donc à observer une augmentation importante et durable du débit ainsi qu'une diminution de la latence client.
+
+Si cette amélioration n'est pas observée, cela pourrait indiquer que les ressources CPU et mémoire de l'instance ne constituent pas la principale limitation de l'application.
 
 #### 2.4.2 Expérimentation B1 / B2
 
@@ -871,38 +938,27 @@ Après les premières dizaines de secondes, j'ai obtenu les valeurs approximativ
 
 Le premier essai B2 présente donc de meilleures performances que les essais B1.Toutefois, lors de sa répétition, les résultats B2 deviennent très proches de ceux obtenus avec B1.
 
+
+**Retour sur l'hypothèse**
+
+Les résultats ne confirment pas mon hypothèse initiale.Je m'attendais à une amélioration importante et durable des performances en passant d'une instance B1 à une instance B2, puisque celle-ci dispose de deux fois plus de mémoire et d'une puissance de calcul relative deux fois supérieure.
+Bien que le premier essai B2 semble aller dans le sens de cette hypothèse, le second essai donne des résultats très proches de ceux obtenus avec B1. L'amélioration attendue n'est donc pas reproductible.
+Je pensais initialement que les ressources limitées des instances B1 empêchaient Gunicorn d'exploiter efficacement ses workers et ses threads. Cependant, j'ai probablement sous-estimé l'influence des autres composants du système, notamment App Engine et Datastore. Ces résultats ne permettent pas d'exclure complètement une limitation liée au CPU ou à la mémoire. En revanche, ils montrent que l'augmentation des ressources de l'instance ne constitue pas, dans les conditions testées, une solution fiable au problème observé.
+
+
 **Interprétation et investigation des temps d'attente**
 
-Cette différence m'a amené à envisager que la puissance des instances n'était pas le seul facteur influençant les performances.
-
-J'ai donc examiné les journaux de requêtes App Engine. Sur un intervalle du test B2, j'ai relevé un **`pendingTime` médian d'environ 389,5 ms**.
+Puisque l'augmentation des ressources de l'instance ne semble pas suffire à résoudre le problème, j'ai décidé d'examiner davantage la manière dont App Engine prend en charge les requête.J'ai donc examiné les journaux de requêtes App Engine. Sur un intervalle du test B2, j'ai relevé un **`pendingTime` médian d'environ 389,5 ms**.
 
 D'après la [documentation de Google Cloud sur les journaux App Engine](https://docs.cloud.google.com/python/docs/reference/appenginelogging/latest/google.cloud.appengine_logging_v1.types.RequestLog), `pendingTime` correspond au temps passé par une requête dans la file d'attente avant sa prise en charge.
 
-Cette mesure constitue un indice concret : **une partie importante de la latence peut provenir de l'attente avant le traitement applicatif**, et non uniquement de l'exécution de `get_timeline()`.
-
-Cependant, cette observation concerne un intervalle précis du test B2. Elle ne permet pas d'expliquer à elle seule la chute initiale du débit ni pourquoi les deux essais B2 ont produit des résultats différents.
-
-Je ne peux donc pas conclure que le passage de B1 à B2 constitue une correction fiable du second goulot d'étranglement. Cette investigation m'a surtout permis d'identifier **la mise en attente des requêtes comme une piste sérieuse**, dont les causes restent à déterminer.
+Et donc cette mesure constitue un indice concret , une partie importante de la latence peut provenir de l'attente avant le traitement applicatif, et non uniquement de l'exécution de `get_timeline()`.Cependant, cette observation concerne un intervalle précis du test B2. Elle ne permet pas d'expliquer à elle seule la chute initiale du débit ni pourquoi les deux essais B2 ont produit des résultats différents.
+Je ne peux donc pas conclure que le passage de B1 à B2 constitue une correction fiable du second goulot d'étranglement.
 
 #### Conclusion sur le second goulot d'étranglement
 
-Je pense que la configuration de Gunicorn joue un rôle important dans
-le goulot d'étranglement observé, mais je ne pense pas du tout qu'elle soit
-le seul facteur responsable.
+Les différentes expériences suggèrent que la configuration de Gunicorn joue un rôle dans le goulot d'étranglement observé, mais que sa modification ne suffit pas à résoudre le problème.L'augmentation des ressources de l'instance n'a pas non plus apporté d'amélioration reproductible.Les mesures de `pendingTime` suggèrent que la gestion des requêtes par App Engine pourrait également constituer un facteur limitant.Je n'ai donc pas réussi à identifier précisément l'origine de ce second goulot d'étranglement malheureusement.
 
-Le problème pourrait également provenir de la manière dont App Engine
-distribue et met en attente les requêtes. Cette hypothèse est renforcée
-par le `pendingTime` relevé dans les journaux et par l'écart important
-entre la latence client et le temps d'exécution côté serveur.
-
-De plus, le fait que deux essais réalisés avec une même configuration
-puissent donner des résultats aussi différents suggère que d'autres
-facteurs influencent la gestion des requêtes concurrentes.
-
-La configuration de Gunicorn reste donc une piste d'optimisation
-pertinente, mais mes expérimentations ne permettent pas d'identifier
-avec certitude l'origine de ce second goulot d'étranglement.
 
 ## 3. Tableau des verdicts
 
