@@ -379,7 +379,7 @@ En supposant que chaque auteur possède au moins 20 publications, le nombre maxi
 $$
 R(F) =
 \begin{cases}
-21 & \text{si } F \leq 29 \\[6pt]
+21 & \text{si } F \leq 29 \\
 1 + 20(F + 1) & \text{si } F \geq 30
 \end{cases}
 $$
